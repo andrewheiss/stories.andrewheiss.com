@@ -1,0 +1,34 @@
+baseurl: /
+languageCode: en-us
+title: Telling Stories with Data
+theme: ath-tufte-hugo
+googleAnalytics: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - \.yaml$
+  - _files$
+  - _cache$
+permalinks:
+  post: '/:year/:month/:day/:slug/'
+menu:
+  main:
+    - name: Syllabus
+      url: /syllabus/
+    - name: Schedule
+      url: /schedule/
+    - name: Assignments
+      url: /assignments/
+    - name: Reference
+      url: /reference/
+    - name: Rmd test
+      url: /testing/
+params:
+  author: Andrew Heiss
+  courseNumber: MPA 635
+  description: A website built through Hugo and blogdown.
+  logo:
+    url: logo.png
+    width: 50
+    height: 50
+    alt: Logo
