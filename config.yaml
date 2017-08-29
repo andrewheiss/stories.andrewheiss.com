@@ -2,7 +2,7 @@ baseurl: /
 languageCode: en-us
 title: Telling Stories with Data
 theme: ath-tufte-hugo
-googleAnalytics: ''
+googleAnalytics: ""
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -10,7 +10,7 @@ ignoreFiles:
   - _files$
   - _cache$
 permalinks:
-  post: '/:year/:month/:day/:slug/'
+  post: "/:year/:month/:day/:slug/"
 menu:
   main:
     - name: Syllabus
@@ -23,6 +23,11 @@ menu:
       url: /reference/
     - name: Rmd test
       url: /testing/
+# Disable taxonomies
+taxonomies:
+  tag: ""
+  group: ""
+  category: ""
 params:
   author: Andrew Heiss
   courseNumber: MPA 635
