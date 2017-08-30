@@ -1,0 +1,129 @@
+---
+title: Syllabus
+author: ''
+date: '2017-08-28'
+slug: syllabus
+citeproc: false
+bibliography: ../static/bib/references.bib
+csl: ../static/bib/chicago-syllabus-no-bib.csl
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+```
+
+<span class="newthought">Data rarely speaks for itself.</span> Without clear communication and a convincing argument, the theoretically rigorous and groundbreaking results you have found after months of backbreaking toil can easily be ignored. If you want people to understand and use your data and findings, you must present them in an engaging way.
+
+In this class you’ll learn how to use techniques long used by storytellers, documentarians, and artists to communicate your scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
+
+
+# Course objectives
+
+At the end of this course, you'll be well on your way to becoming an expert presenter and science communicator. Specifically, you’ll be able to:
+
+- Distinguish between different mediums for presenting research and identify which is most appropriate for different situations and audiences
+- Translate analytical results into narratives that maintain nuance and engage diverse readers, listeners, and stakeholders
+- Synthesize and apply basic graphic design principles to create and deliver an engaging and convincing narrative presentation
+- Evaluate presentations based on their design, content, narrative, and delivery
+
+
+# Course materials
+
+You'll need to get these books—they're definitely worth keeping for reference, too.
+
+- [@Williams:2008] [$20ish used, $25 new]
+- [@Knaflic:2015] [$X used, $X new]
+- [@Alda:2017] [$X used, $X new]
+- [@Duarte:2010] [$X used, $X new]
+
+You'll need to subscribe to at least three of these (free!) online resources:
+
+-	Rad Presenters podcast: http://www.radpresenters.com/
+-	Evergreen Data: http://stephanieevergreen.com/category/blog/
+-	FlowingData: http://flowingdata.com/
+-	Information is Beautiful: http://www.informationisbeautiful.net/blog/
+-	Junk Charts: http://junkcharts.typepad.com/
+-	PolicyViz: http://policyviz.com/
+-	Storytelling with Data: http://www.storytellingwithdata.com/
+-	Ann's Blog: http://annkemery.com/blog/
+
+There will also be a few articles and websites (not too many!) that I will post on Learning Suite. 
+
+# Course policies
+
+**Be nice. Be honest. Don't cheat.**
+
+An entire list of Marriott School and BYU classroom policies can be found at <https://marriottschool.byu.edu/policies/classroom/>.
+
+
+## Counseling and Psychological Services (CAPS)
+
+Life at BYU can be complicated and challenging. You might feel overwhelmed, experience anxiety or depression, or struggle with relationships or family responsibilities. [Counseling and Psychological Services (CAPS)](https://caps.byu.edu/) provides free, *confidential* support for students who are struggling with mental health and emotional challenges. The CAPS office is staffed by professional psychologists who are attuned to the needs of all types of college students. Please do not hesitate to contact CAPS for assistance—getting help is a smart and courageous thing to do.
+
+
+## Basic needs security
+
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the [Dean of Students](https://deanofstudents.byu.edu/) for support. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.
+
+
+## Class conduct and expectations
+
+On the first day of class we’ll come up with rules, expectations, and policies for things like technology in the classroom, attendance, participation, late work, etc. I will put those here once we all agree.
+
+
+# Assignments and grades
+
+You can find descriptions and instructions of all assignments on the [assignments page](/assignments/).
+
+## Assignments
+
+```{r assignments-grades, include=FALSE}
+assignments <- tribble(
+  ~Points, ~Assignment,
+  50     , "Weekly memo",
+  10     , "Slide redesign 1",
+  30     , "Slide redesign 2",
+  10     , "Chart redesign 1",
+  30     , "Chart redesign 2",
+  15     , "Handout redesign 1",
+  35     , "Handout redesign 2",
+  30     , "Story map",
+  10     , "Rubric draft 1—design",
+  10     , "Rubric draft 2—content",
+  10     , "Rubric draft 3—narrative",
+  10     , "Rubric draft 4—delivery",
+  150    , "Final presentation rubric",
+  30     , "Rubric test run",
+  200    , "Final presentation and handout"
+)
+
+grading <- tribble(
+  ~Grade, ~Range,
+  "A",  "93–100%",
+  "A−", "90–92%",
+  "B+", "87–89%",
+  "B",  "83–86%",
+  "B−", "80–82%",
+  "C+", "77–79%",
+  "C",  "73–76%",
+  "C−", "70–72%",
+  "D+", "67–69%",
+  "D",  "63–66%",
+  "D−", "60–62%",
+  "F",  "< 60%"
+)
+```
+
+```{r show-assignments-table, echo=FALSE, results="asis"}
+assignments %>% 
+  select(Assignment, Points) %>% 
+  pandoc.table(justify = "lc")
+```
+
+## Grades
+
+```{r show-grades-table, echo=FALSE, results="asis"}
+grading %>%
+  pandoc.table(justify = "rc")
+```
