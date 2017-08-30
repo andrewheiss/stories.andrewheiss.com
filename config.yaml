@@ -16,14 +16,16 @@ menu:
   main:
     - name: Syllabus
       url: /syllabus/
+      weight: 1
     - name: Schedule
       url: /schedule/
+      weight: 2
     - name: Assignments
       url: /assignments/
+      weight: 3
     - name: Reference
       url: /reference/
-    - name: Rmd test
-      url: /testing/
+      weight: 4
 # Disable taxonomies
 taxonomies:
   tag: ""
