@@ -35,8 +35,8 @@ params:
   author: Andrew Heiss
   courseNumber: MPA 635
   description: A website built through Hugo and blogdown.
+  primaryColor: "#188146"
+  secondaryColor: "#ECAD49"
   logo:
-    url: logo.png
-    width: 50
-    height: 50
-    alt: Logo
+    url: /images/stories_icon_hires.png
+    alt: Telling Stories with Data
