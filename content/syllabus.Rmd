@@ -1,7 +1,5 @@
 ---
 title: Syllabus
-author: ''
-date: '2017-08-28'
 slug: syllabus
 citeproc: false
 bibliography: ../static/bib/references.bib
@@ -13,9 +11,12 @@ library(tidyverse)
 library(pander)
 ```
 
-<span class="newthought">Data rarely speaks for itself.</span> Without clear communication and a convincing argument, the theoretically rigorous and groundbreaking results you have found after months of backbreaking toil can easily be ignored. If you want people to understand and use your data and findings, you must present them in an engaging way.
+<span class="newthought">Data rarely speaks for itself.</span> [^courseinfo] Without clear communication and a convincing argument, the theoretically rigorous and groundbreaking results you have found after months of backbreaking toil can easily be ignored. If you want people to understand and use your data and findings, you must present them in an engaging way.
 
-In this class you’ll learn how to use techniques long used by storytellers, documentarians, and artists to communicate your scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
+In this class you’ll learn how to use techniques long used by storytellers, documentarians, and artists to communicate scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
+
+[^courseinfo]: {-}
+  `r blogdown::shortcode("courseinfo")`
 
 
 # Course objectives
@@ -32,21 +33,24 @@ At the end of this course, you'll be well on your way to becoming an expert pres
 
 You'll need to get these books—they're definitely worth keeping for reference, too.
 
-- [@Williams:2008] [$20ish used, $25 new]
-- [@Knaflic:2015] [$X used, $X new]
-- [@Alda:2017] [$X used, $X new]
-- [@Duarte:2010] [$X used, $X new]
+- [@Knaflic:2015] [$20 used, $24 new; [Amazon](https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257)]
+- [@Alda:2017] [$13 used, $20 new; [Amazon](https://www.amazon.com/Understood-Would-Have-This-Look/dp/0812989147)]
+- [@Duarte:2010] [$8 used, $17 new; [Amazon](https://www.amazon.com/Resonate-Present-Stories-Transform-Audiences/dp/0470632011)]
+
+This book is optional, but we'll discuss and use many of the graphic design principles in it, and it will change how you design anything in the future. I highly recommend it.
+
+- [@Williams:2008] [$15 used; [Amazon](https://www.amazon.com/Non-Designers-Design-Type-Books-Deluxe/dp/0321534050)]
 
 You'll need to subscribe to at least three of these (free!) online resources:
 
--	Rad Presenters podcast: http://www.radpresenters.com/
--	Evergreen Data: http://stephanieevergreen.com/category/blog/
--	FlowingData: http://flowingdata.com/
--	Information is Beautiful: http://www.informationisbeautiful.net/blog/
--	Junk Charts: http://junkcharts.typepad.com/
--	PolicyViz: http://policyviz.com/
--	Storytelling with Data: http://www.storytellingwithdata.com/
--	Ann's Blog: http://annkemery.com/blog/
+- [Rad Presenters podcast](http://www.radpresenters.com/)
+- [Evergreen Data](http://stephanieevergreen.com/category/blog/)
+- [FlowingData](http://flowingdata.com/)
+- [Information is Beautiful](http://www.informationisbeautiful.net/blog/)
+- [Junk Charts](http://junkcharts.typepad.com/)
+- [PolicyViz](http://policyviz.com/)
+- [Storytelling with Data](http://www.storytellingwithdata.com/)
+- [Ann's Blog](http://annkemery.com/blog/)
 
 There will also be a few articles and websites (not too many!) that I will post on Learning Suite. 
 
@@ -54,7 +58,7 @@ There will also be a few articles and websites (not too many!) that I will post 
 
 **Be nice. Be honest. Don't cheat.**
 
-An entire list of Marriott School and BYU classroom policies can be found at <https://marriottschool.byu.edu/policies/classroom/>.
+We will also follow the [full list of Marriott School and BYU classroom policies](https://marriottschool.byu.edu/policies/classroom/).
 
 
 ## Counseling and Psychological Services (CAPS)
@@ -64,7 +68,7 @@ Life at BYU can be complicated and challenging. You might feel overwhelmed, expe
 
 ## Basic needs security
 
-If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the [Dean of Students](https://deanofstudents.byu.edu/) for support. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the [Dean of Students](https://deanofstudents.byu.edu/) for support. Please also consider speaking with your local LDS bishop regarding Church welfare assistance *regardless of whether or not you are LDS*. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.
 
 
 ## Class conduct and expectations
@@ -127,3 +131,11 @@ assignments %>%
 grading %>%
   pandoc.table(justify = "rc")
 ```
+
+
+# Dinosaurs
+
+[^dinosaurs] Once you have read this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:andrew_heiss@byu.edu) and e-mail me a picture of a dinosaur. For real. Brownie points if you send a picture of a cat or dog dressed as a dinosaur. Triple chocolate brownie points if it's animated.
+
+[^dinosaurs]: {-}
+  ![Dancing dinosaurs](https://media.giphy.com/media/y6NE0lFQrkrOE/giphy.gif)
