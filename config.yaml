@@ -1,4 +1,4 @@
-baseurl: /
+baseURL: "https://stories.andrewheiss.com/"
 languageCode: en-us
 title: Telling Stories with Data
 theme: ath-tufte-hugo
@@ -17,12 +17,12 @@ menu:
     - name: Syllabus
       url: /syllabus/
       weight: 1
-    - name: Schedule
-      url: /schedule/
-      weight: 2
     - name: Assignments
       url: /assignments/
       weight: 3
+    - name: Schedule
+      url: /schedule/
+      weight: 2
     - name: Reference
       url: /reference/
       weight: 4
@@ -33,10 +33,41 @@ taxonomies:
   category: ""
 params:
   author: Andrew Heiss
-  courseNumber: MPA 635
-  description: A website built through Hugo and blogdown.
+  thumbnail: /images/stories_meta.png
+  instructor: 
+    name: Dr. Andrew Heiss
+    email: andrew_heiss@byu.edu
+    url: "https://www.andrewheiss.com"
+    twitter: andrewheiss
+    github: andrewheiss
+    office: 773 TNRB
+  course:
+    number: BUS M 491R
+    semester: Fall 2017
+    days: "???"
+    time: "???"
+    location: "???"
+    twitter: andrewheiss
+    slack: "https://busm491rfall2017.slack.com/"
+    dates: "October 25–December 14, 2017"
+    github: "andrewheiss/stories.andrewheiss.com"
+    contactDetails: >-
+      Office hours: Mondays from 10:30–11:30. [Sign up for other times here.](https://calendly.com/andrewheiss/meeting/)<br><br>E-mail is the best way to get in contact with me—I will respond to all course-related e-mails within 24 hours (*really*).
+  university: 
+    name: Brigham Young University
+    url: "https://www.byu.edu"
+  school:
+    name: Romney Institute of Public Management
+    url: "https://marriottschool.byu.edu/mpa/"
+  description: "Communicate science with compelling stories"
   primaryColor: "#188146"
   secondaryColor: "#ECAD49"
+  credits: >-
+    "Statistics Screen Projector" icon by [unlimicon](https://thenounproject.com/term/statistics-screen-projector/594275/) from the [noun project](https://thenounproject.com).
   logo:
-    url: /images/stories_icon_hires.png
-    alt: Telling Stories with Data
+    url: /images/stories_hires.png
+    alt: Data visualization
+  meta:
+    twitterSite: "@andrewheiss"
+    twitterCreator: "@andrewheiss"
+    fbAuthor: "https://www.facebook.com/andrewheiss"
