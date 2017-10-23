@@ -1,6 +1,45 @@
 lessons:
-  - title: "First topic"
-    date: "Some date"
-  - title: "Second topic"
-    date: "Some other date"
+  - title: "Something"
+    date: "October 25 (W)"
 
+  - title: "Something"
+    date: "October 30 (M)"
+
+  - title: "Something"
+    date: "November 1 (W)"
+
+  - title: "Something"
+    date: "November 6 (M)"
+
+  - title: "Something"
+    date: "November 8 (W)"
+
+  - title: "Something"
+    date: "November 13 (M)"
+
+  - title: "Something"
+    date: "November 15 (W)"
+
+  - title: "Something"
+    date: "November 20 (M)"
+
+  - title: "*No class; Thanksgiving break*"
+    date: "November 22 (W)"
+
+  - title: "Something"
+    date: "November 27 (M)"
+
+  - title: "Something"
+    date: "November 29 (W)"
+
+  - title: "Something"
+    date: "December 4 (M)"
+
+  - title: "Something"
+    date: "December 6 (W)"
+
+  - title: "Something"
+    date: "December 11 (M)"
+
+  - title: "Something"
+    date: "December 13 (W)"
