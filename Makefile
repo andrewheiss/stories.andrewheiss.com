@@ -1,5 +1,5 @@
 OUTPUTDIR=public
-SSH_TARGET=cloud:/home/andrew/sites/stories/public_html
+SSH_TARGET=cloud:/home/andrew/sites/storiesf17.classes/public_html
 
 .PHONY : all
 
