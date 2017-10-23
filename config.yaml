@@ -44,9 +44,9 @@ params:
   course:
     number: BUS M 491R
     semester: Fall 2017
-    days: "???"
-    time: "???"
-    location: "???"
+    days: "Mondays and Wednesdays"
+    time: "3:30–4:45 PM"
+    location: "W240 TNRB"
     twitter: andrewheiss
     slack: "https://busm491rfall2017.slack.com/"
     dates: "October 25–December 14, 2017"
