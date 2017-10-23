@@ -13,7 +13,7 @@ library(pander)
 
 <span class="newthought">Data rarely speaks for itself.</span> [^courseinfo] Without clear communication and a convincing argument, the theoretically rigorous and groundbreaking results you have found after months of backbreaking toil can easily be ignored. If you want people to understand and use your data and findings, you must present them in an engaging way.
 
-In this class you’ll learn how to use techniques long used by storytellers, documentarians, and artists to communicate scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
+In this class you'll learn how to use techniques long used by storytellers, documentarians, and artists to communicate scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
 
 [^courseinfo]: {-}
   `r blogdown::shortcode("courseinfo")`
@@ -21,7 +21,7 @@ In this class you’ll learn how to use techniques long used by storytellers, do
 
 # Course objectives
 
-At the end of this course, you'll be well on your way to becoming an expert presenter and science communicator. Specifically, you’ll be able to:
+At the end of this course, you'll be well on your way to becoming an expert presenter and science communicator. Specifically, you'll be able to:
 
 - Distinguish between different mediums for presenting research and identify which is most appropriate for different situations and audiences
 - Translate analytical results into narratives that maintain nuance and engage diverse readers, listeners, and stakeholders
@@ -52,7 +52,8 @@ You'll need to subscribe to at least three of these (free!) online resources:
 - [Storytelling with Data](http://www.storytellingwithdata.com/)
 - [Ann's Blog](http://annkemery.com/blog/)
 
-There will also be a few articles and websites (not too many!) that I will post on Learning Suite. 
+There will also be a few articles and websites that I will post on the readings pages for individual class sessions.
+
 
 # Course policies
 
@@ -73,7 +74,7 @@ If you have difficulty affording groceries or accessing sufficient food to eat e
 
 ## Class conduct and expectations
 
-On the first day of class we’ll come up with rules, expectations, and policies for things like technology in the classroom, attendance, participation, late work, etc. I will put those here once we all agree.
+On the first day of class we'll come up with rules, expectations, and policies for things like technology in the classroom, attendance, participation, late work, etc. I will put those here once we all agree.
 
 
 # Assignments and grades
