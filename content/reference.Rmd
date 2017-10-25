@@ -11,9 +11,12 @@ output:
 library(emo)
 ```
 
+A library of useful references and resources will go here shortly.
 
+```{r eval=FALSE, include=FALSE}
 # Citations and bibliography
 
-[^bibtex] You can [download a BibTeX file](/bib/references.bib) of all the non-web-based readings in the course.
+# [^bibtex] You can [download a BibTeX file](/bib/references.bib) of all the non-web-based readings in the course.
 
-[^bibtex]: {-} You can open the file in [BibDesk on macOS](http://bibdesk.sourceforge.net/), [JabRef on Windows](http://www.jabref.org/), or [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) online.
+# [^bibtex]: {-} You can open the file in [BibDesk on macOS](http://bibdesk.sourceforge.net/), [JabRef on Windows](http://www.jabref.org/), or [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) online.
+```

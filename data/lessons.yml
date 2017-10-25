@@ -1,45 +1,88 @@
 lessons:
-  - title: "Something"
+  - title: '<span class="newthought">design</span>'
+  - title: "Truth, Beauty, and Stories"
     date: "October 25 (W)"
+    reading: "01-reading"
 
-  - title: "Something"
+  - title: "Context | Contrast, repetition | Typography"
     date: "October 30 (M)"
+    reading: "02-reading"
 
-  - title: "Something"
+  - title: "Effective visuals | Alignment, proximity | Typography"
     date: "November 1 (W)"
+    reading: "03-reading"
 
-  - title: "Something"
+  - title: "Clutter and focus"
     date: "November 6 (M)"
+    reading: "04-reading"
 
-  - title: "Something"
+  - title: "Thinking like a designer"
     date: "November 8 (W)"
+    reading: "05-reading"
+  
+  - title: "**Project 1 due**"
+    date: "November 10 (F)"
+    
+  - title: "⊞ *Design rubric draft due*"
 
-  - title: "Something"
+  - title: '<span class="newthought">narrative</span><br>'
+  - title: "Principles of storytelling and resonating"
     date: "November 13 (M)"
+    reading: "06-reading"
 
-  - title: "Something"
+  - title: "Heroes, myths, and journeys I"
     date: "November 15 (W)"
+    reading: "07-reading"
 
-  - title: "Something"
+  - title: "Heroes, myths, and journeys II"
     date: "November 20 (M)"
+    reading: "08-reading"
+  
+  - title: "**Project 2 due**"
+    date: "November 21 (T)"
 
   - title: "*No class; Thanksgiving break*"
     date: "November 22 (W)"
 
-  - title: "Something"
+  - title: "Content"
     date: "November 27 (M)"
+    reading: "09-reading"
 
-  - title: "Something"
+  - title: "Structure"
     date: "November 29 (W)"
+    reading: "10-reading"
 
-  - title: "Something"
+  - title: "**Project 3 due**"
+    date: "December 1 (F)"
+  
+  - title: "⊞ *Story map due*"
+
+  - title: "Ethics of storytelling with science"
     date: "December 4 (M)"
+    reading: "11-reading"
+  
+  - title: "⊞ *Narrative rubric draft due*"
 
-  - title: "Something"
+  - title: '<span class="newthought">delivery</span>'
+  - title: "Delivery I"
     date: "December 6 (W)"
+    reading: "12-reading"
 
-  - title: "Something"
+  - title: "Delivery II"
     date: "December 11 (M)"
+    reading: "13-reading"
+  
+  - title: "⊞ *Delivery rubric draft due*"
+  - title: "⊞ *Rubric test run due*"
 
-  - title: "Something"
+  - title: "Truth, Beauty, and Stories, revisited"
     date: "December 13 (W)"
+    reading: "14-reading"
+    
+  - title: '<span class="newthought">final</span>'
+  - title: "**Final presentations** (3:00–6:00 PM)"
+    date: "December 21 (Th)"
+    
+  - title: "⊞ **Story portfolio due** (submit online by 3 PM)"
+
+  - title: "⊞ **Final rubric due** (submit online by 3 PM)"

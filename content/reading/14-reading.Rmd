@@ -1,0 +1,20 @@
+---
+title: "Truth, Beauty, and Stories, revisited"
+date: "2017-12-13"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Thing
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA

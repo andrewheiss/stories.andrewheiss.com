@@ -1,0 +1,20 @@
+---
+title: "Delivery II"
+date: "2017-12-11"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Chapter 9 in Nancy Duarte, *Resonate* [@Duarte:2010]
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA

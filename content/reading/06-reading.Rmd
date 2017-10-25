@@ -1,0 +1,21 @@
+---
+title: "Principles of storytelling and resonating"
+date: "2017-11-13"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Chapter 7 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
+- Chapter 1 in Nancy Duarte, *Resonate* [@Duarte:2010]
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA

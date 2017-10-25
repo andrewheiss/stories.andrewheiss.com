@@ -1,0 +1,20 @@
+---
+title: "Heroes, myths, and journeys II"
+date: "2017-11-20"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Chapters 3 and 4 in Nancy Duarte, *Resonate* [@Duarte:2010]
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA

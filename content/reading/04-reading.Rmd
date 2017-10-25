@@ -1,0 +1,20 @@
+---
+title: "Clutter and focus"
+date: "2017-11-06"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Chapters 3 and 4 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA

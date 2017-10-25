@@ -1,0 +1,29 @@
+---
+title: "Truth, Beauty, and Stories"
+date: "2017-10-25"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- [Ben Wellington, "Making data mean more through storytelling"](https://www.youtube.com/watch?v=6xsvGYIxJok)
+- [Jonathan Schwabish, "Better Data Communication", National Bureau of Economic Research](https://vimeo.com/230757062)
+- [Adam Kanouse, "The Story in Data Storytelling"](https://www.youtube.com/watch?v=na7h_qv9vL0)
+- [Data Storytelling: The Essential Data Science Skill Everyone Needs](https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/#6640ab7352ad)^[Make sure you read both pages.]
+- [Do You Have Mysterious Dragons in Your Research?](https://www.insidehighered.com/advice/2015/01/26/essay-talking-about-your-research)
+- [Summary of CRAP graphic design principles](http://www.presentationzen.com/chapter6_spread.pdf) from Garr Reynolds, *Presentation Zen* [@Reynolds:2008]
+
+
+# Recommended
+
+- President Dieter F. Uchtdorf's 2013 CES devotional "What is Truth?" [@Uchtdorf:2013].&emsp;[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/readings/Uchtdorf_Dieter_2013-01-13.pdf)&ensp;[<i class="fa fa-youtube" aria-hidden="true"></i>](https://youtu.be/sgRR9WZPp5c?t=12m50s)
+- If you have access to Robin Williams, *The Non-Designer's Design Book*, read through chapters 2–5 [@Williams:2008]
+
+
+# Questions to reflect on
+
+-	Why do people like stories?
+-	What makes a good story? What makes a bad story?
+-	What is the role of stories in presenting analysis?

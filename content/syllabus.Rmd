@@ -7,7 +7,8 @@ csl: ../static/bib/chicago-syllabus-no-bib.csl
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
-library(tidyverse)
+library(dplyr)
+library(tibble)
 library(pander)
 ```
 
@@ -37,22 +38,11 @@ You'll need to get these books—they're definitely worth keeping for reference,
 - [@Alda:2017] [$13 used, $20 new; [Amazon](https://www.amazon.com/Understood-Would-Have-This-Look/dp/0812989147)]
 - [@Duarte:2010] [$8 used, $17 new; [Amazon](https://www.amazon.com/Resonate-Present-Stories-Transform-Audiences/dp/0470632011)]
 
-This book is optional, but we'll discuss and use many of the graphic design principles in it, and it will change how you design anything in the future. I highly recommend it.
+This book is optional, but we'll discuss and use many of the graphic design principles in it, and it will change how you design anything in the future. *I highly recommend it.*
 
 - [@Williams:2008] [$15 used; [Amazon](https://www.amazon.com/Non-Designers-Design-Type-Books-Deluxe/dp/0321534050)]
 
-You'll need to subscribe to at least three of these (free!) online resources:
-
-- [Rad Presenters podcast](http://www.radpresenters.com/)
-- [Evergreen Data](http://stephanieevergreen.com/category/blog/)
-- [FlowingData](http://flowingdata.com/)
-- [Information is Beautiful](http://www.informationisbeautiful.net/blog/)
-- [Junk Charts](http://junkcharts.typepad.com/)
-- [PolicyViz](http://policyviz.com/)
-- [Storytelling with Data](http://www.storytellingwithdata.com/)
-- [Ann's Blog](http://annkemery.com/blog/)
-
-There will also be a few articles and websites that I will post on the readings pages for individual class sessions.
+There will also be several articles, websites, and videos that I will post on the readings pages for individual class sessions.
 
 
 # Course policies
@@ -86,21 +76,18 @@ You can find descriptions and instructions of all assignments on the [assignment
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points, ~Assignment,
-  50     , "Weekly memo",
-  10     , "Slide redesign 1",
-  30     , "Slide redesign 2",
-  10     , "Chart redesign 1",
-  30     , "Chart redesign 2",
-  15     , "Handout redesign 1",
-  35     , "Handout redesign 2",
-  30     , "Story map",
+  70     , "Weekly memos (7)",
+  30     , "Project 1",
+  30     , "Project 2",
+  30     , "Project 3",
+  10     , "Story map",
   10     , "Rubric draft 1—design",
-  10     , "Rubric draft 2—content",
-  10     , "Rubric draft 3—narrative",
-  10     , "Rubric draft 4—delivery",
-  150    , "Final presentation rubric",
-  30     , "Rubric test run",
-  200    , "Final presentation and handout"
+  10     , "Rubric draft 2—narrative",
+  10     , "Rubric draft 3—delivery",
+  20     , "Rubric test run",
+  75     , "Final presentation rubric",
+  100    , "Final story portfolio",
+  50     , "Final presentation"
 )
 
 grading <- tribble(

@@ -1,9 +1,15 @@
 ---
 title: "Telling stories with data"
 author: "Andrew Heiss"
-date: "2017-08-29"
 ---
 
 ^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for Business Management 491R: Telling Stories with Data, held in the second term of Fall 2017 at Brigham Young University.
 
-By the end of this course, you will…
+In this class you'll learn how to use techniques long used by storytellers, documentarians, and artists to communicate scientific findings in a way that is effective, engaging, professional, enjoyable, and memorable.
+
+By the end of this course, you will become (1) literate in graphic design principles, (2) an expert in identifiying and creating narrative structures, and (3) an effective and ethical science communicator by translating research into multiple genres and forms that are beautiful, engaging, and resonant.
+
+<figure>
+[![Hans Rosling](/images/rosling.jpg)](http://www.gapminder.org/)
+<!-- Image via https://nihrecord.nih.gov/newsletters/2010/04_02_2010/story3.htm -->
+</figure>

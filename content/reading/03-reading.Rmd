@@ -1,0 +1,20 @@
+---
+title: "Effective visuals | Alignment, proximity | Typography"
+date: "2017-11-01"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+# Required
+
+- Chapter 2 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
+- Other readings TBA
+
+# Recommended
+
+- TBA
+
+# Questions to reflect on
+
+-	TBA
