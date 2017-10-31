@@ -23,8 +23,6 @@ lessons:
   
   - title: "**Project 1 due**"
     date: "November 10 (F)"
-    
-  - title: "⊞ *Design rubric draft due*"
 
   - title: '<span class="newthought">narrative</span><br>'
   - title: "Principles of storytelling and resonating"
@@ -61,8 +59,6 @@ lessons:
   - title: "Ethics of storytelling with science"
     date: "December 4 (M)"
     reading: "11-reading"
-  
-  - title: "⊞ *Narrative rubric draft due*"
 
   - title: '<span class="newthought">delivery</span>'
   - title: "Delivery I"
@@ -72,9 +68,6 @@ lessons:
   - title: "Delivery II"
     date: "December 11 (M)"
     reading: "13-reading"
-  
-  - title: "⊞ *Delivery rubric draft due*"
-  - title: "⊞ *Rubric test run due*"
 
   - title: "Truth, Beauty, and Stories, revisited"
     date: "December 13 (W)"
@@ -85,5 +78,3 @@ lessons:
     date: "December 21 (Th)"
     
   - title: "⊞ **Story portfolio due** (submit online by 3 PM)"
-
-  - title: "⊞ **Final rubric due** (submit online by 3 PM)"
