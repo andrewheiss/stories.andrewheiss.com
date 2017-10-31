@@ -64,7 +64,12 @@ If you have difficulty affording groceries or accessing sufficient food to eat e
 
 ## Class conduct and expectations
 
-On the first day of class we'll come up with rules, expectations, and policies for things like technology in the classroom, attendance, participation, late work, etc. I will put those here once we all agree.
+On the first day of class we came up with rules, expectations, and policies for things like technology in the classroom, attendance, participation, late work, etc. Here's what we decided:
+
+- Late work will result in a loss of 10% of the total points each day it's late, with a maximum penalty of 50%
+- Strive to participate in class
+- Come to class whenever possible; make up missed work if you have to miss
+- It's obvious if you're not paying attention, so pay attenion. Use technology responsibly.
 
 
 # Assignments and grades
@@ -80,13 +85,8 @@ assignments <- tribble(
   30     , "Project 1",
   30     , "Project 2",
   30     , "Project 3",
-  10     , "Story map",
-  10     , "Rubric draft 1—design",
-  10     , "Rubric draft 2—narrative",
-  10     , "Rubric draft 3—delivery",
-  20     , "Rubric test run",
-  75     , "Final presentation rubric",
-  100    , "Final story portfolio",
+  20     , "Story map",
+  150    , "Final story portfolio",
   50     , "Final presentation"
 )
 
