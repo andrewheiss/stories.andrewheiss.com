@@ -9,12 +9,10 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Introduction and chapter 1 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
-- Other readings TBA
+- [Isaac Reyes, "The Art of Data Storytelling"](https://www.youtube.com/watch?v=zInG1BUQZek)
 
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+-	What makes a good story? What makes a bad story?
+-	What is the role of stories in presenting analysis?
