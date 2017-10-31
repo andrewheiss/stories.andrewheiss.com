@@ -6,3 +6,5 @@ blogdown/
 public/
 .DS_Store
 assets/*
+static/slides/*
+static/**.zip
