@@ -5,9 +5,11 @@ lessons:
     reading: "01-reading"
     class: "01-class"
 
-  - title: "Context | Contrast, repetition | Typography"
+  - title: "Context | Contrast, repetition"
     date: "October 30 (M)"
     reading: "02-reading"
+    assignment: "01-assignment"
+    class: "02-class"
 
   - title: "Effective visuals | Alignment, proximity | Typography"
     date: "November 1 (W)"

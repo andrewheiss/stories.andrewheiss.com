@@ -1,0 +1,16 @@
+---
+title: "Context | Contrast, repetition"
+date: "2017-10-30"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: false
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/BUSM-491R_2017-10-30.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2017-10-30.png)](/slides/BUSM-491R_2017-10-30.pdf)
+</figure>
