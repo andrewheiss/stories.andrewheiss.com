@@ -9,12 +9,8 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Chapters 3 and 4 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
-- Other readings TBA
-
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+-	How does Nussbaumer Knaflic's ideas of thinking like a designer relate to CRAP? Are the two approaches compatible?
+- What is preattentive processing? Is it ethical to manipulate your readers' senses?
