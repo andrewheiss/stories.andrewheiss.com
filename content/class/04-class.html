@@ -1,0 +1,124 @@
+---
+title: "Clutter and focus"
+date: "2017-11-06"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #dddddd; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { font-weight: bold; } /* Keyword */
+code > span.dt { color: #800000; } /* DataType */
+code > span.dv { color: #0000ff; } /* DecVal */
+code > span.bn { color: #0000ff; } /* BaseN */
+code > span.fl { color: #800080; } /* Float */
+code > span.ch { color: #ff00ff; } /* Char */
+code > span.st { color: #dd0000; } /* String */
+code > span.co { color: #808080; font-style: italic; } /* Comment */
+code > span.al { color: #00ff00; font-weight: bold; } /* Alert */
+code > span.fu { color: #000080; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #ff0000; font-weight: bold; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #ff00ff; } /* SpecialChar */
+code > span.vs { color: #dd0000; } /* VerbatimString */
+code > span.ss { color: #dd0000; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { font-weight: bold; } /* Preprocessor */
+code > span.at { } /* Attribute */
+code > span.do { color: #808080; font-style: italic; } /* Documentation */
+code > span.an { color: #808080; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #808080; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #808080; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<h2>Contents</h2>
+<div id="TOC">
+<ul>
+<li><a href="#slides">Slides</a></li>
+<li><a href="#fonts-colors-and-accessibility">Fonts, colors, and accessibility</a></li>
+<li><a href="#refining-and-enhancing-plots-in-illustrator">Refining and enhancing plots in Illustrator</a></li>
+<li><a href="#feedback-for-today">Feedback for today</a></li>
+</ul>
+</div>
+
+<div id="slides" class="section level2">
+<h2>Slides</h2>
+<p><a href="/slides/BUSM-491R_2017-11-06.pdf">Download the slides from today’s lecture</a>.</p>
+<figure>
+<a href="/slides/BUSM-491R_2017-11-06.pdf"><img src="/images/slides/slides_2017-11-06.png" alt="First slide" /></a>
+</figure>
+</div>
+<div id="fonts-colors-and-accessibility" class="section level2">
+<h2>Fonts, colors, and accessibility</h2>
+<p>See the relevant sections in the <a href="/reference/">Reference</a> page.</p>
+</div>
+<div id="refining-and-enhancing-plots-in-illustrator" class="section level2">
+<h2>Refining and enhancing plots in Illustrator</h2>
+<p><strong>Data</strong>: <a href="/data/hot-dog-contest-winners.csv"><i class="fa fa-download" aria-hidden="true"></i> Nathan’s Famous Hot Dog contest winners</a><span><label for="sn-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="marginnote"> Data originally from <a href="https://flowingdata.com/2009/07/02/whos-going-to-win-nathans-hot-dog-eating-contest/">FlowingData</a>.<br />
+<br />
+</span></span></p>
+<p><strong>Plot with transparent background</strong>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
+
+hotdogs &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/hot-dog-contest-winners.csv&quot;</span>) %&gt;%
+<span class="st">  </span><span class="kw">rename</span>(<span class="dt">dogs =</span> <span class="st">`</span><span class="dt">Dogs eaten</span><span class="st">`</span>, <span class="dt">record =</span> <span class="st">`</span><span class="dt">New record</span><span class="st">`</span>) %&gt;%
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">record =</span> <span class="kw">factor</span>(record))
+
+plot_hotdogs &lt;-<span class="st"> </span><span class="kw">ggplot</span>(hotdogs, <span class="kw">aes</span>(<span class="dt">x =</span> Year, <span class="dt">y =</span> dogs, <span class="dt">fill =</span> record)) +<span class="st"> </span>
+<span class="st">  </span><span class="kw">geom_col</span>() +<span class="st"> </span>
+<span class="st">  </span><span class="kw">scale_fill_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;grey80&quot;</span>, <span class="st">&quot;#FC7300&quot;</span>)) +
+<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">1980</span>, <span class="dv">2010</span>, <span class="dv">2</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) +
+<span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">70</span>, <span class="dv">10</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) +
+<span class="st">  </span><span class="kw">guides</span>(<span class="dt">fill =</span> <span class="ot">FALSE</span>) +
+<span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;Hot dogs and buns&quot;</span>, <span class="dt">x =</span> <span class="ot">NULL</span>) +
+<span class="st">  </span><span class="kw">theme_minimal</span>() +
+<span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),
+        <span class="dt">plot.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),
+        <span class="dt">axis.ticks.x =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.25</span>),
+        <span class="dt">panel.grid.major.x =</span> <span class="kw">element_blank</span>(),
+        <span class="dt">panel.grid.major.y =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.5</span>, <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>),
+        <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>())
+
+plot_hotdogs</code></pre></div>
+<p><img src="/class/04-class_files/figure-html/build-hotdogs-1.png" width="672" /></p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggsave</span>(plot_hotdogs, <span class="dt">filename =</span> <span class="st">&quot;output/hotdogs.pdf&quot;</span>,
+       <span class="dt">width =</span> <span class="dv">7</span>, <span class="dt">height =</span> <span class="dv">4</span>, <span class="dt">units =</span> <span class="st">&quot;in&quot;</span>, <span class="dt">bg =</span> <span class="st">&quot;transparent&quot;</span>)</code></pre></div>
+<p><strong>Text for annotations</strong>:</p>
+<ul>
+<li>Winners from Nathan’s Hot Dog Eating Contest</li>
+<li>It’s that time of year again. Since 1916, the annual eating competition has grown substantially attracting competitors from around the world</li>
+<li>Frank Dellarosa eats 21 and a half HDBs over 12 minutes, breaking the previous record of 19 and a half</li>
+<li>Through 2001-2005, Takeru Kobayashi wins by no less than 12 HDBs. In 2006 he only wins by 1.75. After winning 6 years in a row and setting the world record 4 times, Kobayashi places second in 2007.</li>
+<li>For the first time since 1999, an American reclaims the title when Joey Chestnut consumes 66 HDBs, a new world record. Chestnut repeats in 2008.</li>
+<li>Source: Wikipedia and Nathan’s Famous</li>
+</ul>
+<p><strong>Enhanced plot</strong>:</p>
+<figure class="fullwidth">
+<div class="figure">
+<img src="/images/class/hot-dogs.gif" alt="Enhanced hot dog eating contest graph" />
+<p class="caption">Enhanced hot dog eating contest graph</p>
+</div>
+</figure>
+</div>
+<div id="feedback-for-today" class="section level2">
+<h2>Feedback for today</h2>
+<p>Go to <a href="https://goo.gl/forms/dhjNwwkQIyn9qbIl2">this form</a> and answer these three questions (anonymously if you want):</p>
+<ol style="list-style-type: decimal">
+<li>What new thing did you learn today?</li>
+<li>What was the most unclear thing about today’s class?</li>
+<li>What was the most exciting thing you learned today?</li>
+</ol>
+</div>
