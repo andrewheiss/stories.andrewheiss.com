@@ -16,7 +16,6 @@ output:
 </figure>
 
 
-
 # Document to redesign
 
 [<i class="fa fa-download" aria-hidden="true"></i> Download this document](/class/bad-example.docx)
