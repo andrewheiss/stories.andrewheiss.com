@@ -23,6 +23,7 @@ output:
 - [**iWantHue**](http://tools.medialab.sciences-po.fr/iwanthue/): Yet another perceptual distance-based color palette builder.
 - [**ColourLovers**](http://www.colourlovers.com/): Like Facebook for color palettes.
 - [**Photochrome**](https://photochrome.io/): Word-based color pallettes.
+- [**Viridis palettes**](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html): R package for viridis palettes.
 
 [^adobe-color]: {-} ![Adobe Color](/images/reference/adobe-color.png) *Adboe Color*
 
@@ -31,6 +32,27 @@ output:
 
 - [**Google Fonts**](https://fonts.google.com/): Huge collection of free, well-made fonts.
 - [**The Ultimate Collection of Google Font Pairings**](https://www.reliablepsd.com/ultimate-google-font-pairings/): A list of great, well-designed font pairings from all those fonts hosted by Google (for when you're looking for good contrasting or complementary fonts).
+
+
+# Graphic assets
+
+- **Stock photos**
+    - Use the Creative Commons filters on Google Images or Flickr
+    - [**Pexels**](https://www.pexels.com/)
+    - [**Pixabay**](https://pixabay.com/)
+    - [**Unsplash**](https://unsplash.com/)
+    - [**StockSnap.io**](https://stocksnap.io/)
+    - [**Burst**](https://burst.shopify.com/)
+    - [**freephotos.cc**](https://freephotos.cc/)
+- **Vectors**
+    - [**Noun Project**](https://thenounproject.com/): Thousands of free simple vector images
+    - [**Vecteezy**](https://www.vecteezy.com/): Thousands of free vector images
+
+
+# Accessibility
+
+- [**Vischeck**](http://www.vischeck.com/vischeck/vischeckImage.php): Simulate how your images look for people with different forms of colorblindness (web-based)
+- [**Color Oracle**](http://colororacle.org/index.html): Simulate how your images look for people with different forms of colorblindness (desktop-based, more types of colorblindness)
 
 
 # How to select the appropriate chart type
@@ -81,7 +103,8 @@ Because it is focused entirely on visualization (and because it's a well-support
 
 # Working with R and ggplot2
 
-- [^r-google] [**Kieran Healy, *Data Visualization for Social Science: A practical introduction with R and ggplot2***](http://socviz.co/): This is a new, still-in-draft book that provides excellent examples and tutorials about how to create graphics with R and ggplot2.
+- [^r-google] [**Garrett Grolemund and Hadley Wickham, *R for Data Science***](http://r4ds.had.co.nz/): Fantastic introduction to R and the `tidyverse`, with some chapters specifically for data visualization.
+- [**Kieran Healy, *Data Visualization for Social Science: A practical introduction with R and ggplot2***](http://socviz.co/): This is a new, still-in-draft book that provides excellent examples and tutorials about how to create graphics with R and ggplot2.
 - [**Stat 545**](http://stat545.com/): [Dr. Jenny Bryan](https://twitter.com/JennyBryan) at the University of British Columbia has an entire introductory course in R, visualization, and data analysis online.
 - [**STA 112FS: Data Science**](http://www2.stat.duke.edu/courses/Fall17/sta112.01/): [Dr. Mine Çetinkaya-Rundel](https://twitter.com/minebocek) at Duke University has an entire introductory course in R, visualization, and data science online.
 - [**CSE 631: Principles & Practice of Data Visualization**](http://cslu.ohsu.edu/~bedricks/courses/cs631/): Yet another introductory course for R and ggplot2 by [Dr. Alison Presmanes Hill](https://twitter.com/apreshill) at Ohio State University.
