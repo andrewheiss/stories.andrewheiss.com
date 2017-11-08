@@ -1,0 +1,130 @@
+---
+title: "Thinking like a designer"
+date: "2017-11-08"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+The slides from today will go here.
+
+
+# Fonts, colors, and accessibility
+
+See the relevant sections in the [Reference](/reference/) page.
+
+
+# Long-Term Workhouse Inmates in England and Wales, 1861
+
+^[{-} ![Workhouse](/images/class/workhouse.jpg) [Poor people coming to a workhouse for food](https://en.wikipedia.org/wiki/File:Poor_people_coming_to_a_workhouse_for_food,_c._1840_Wellcome_L0006802.jpg)] 
+
+> *"Are there no prisons?" asked Scrooge.*
+>
+> *"Plenty of prisons," said the gentleman, laying down the pen again.*
+>
+> *"And the Union workhouses?" demanded Scrooge. "Are they still in operation?"*
+>
+> *"They are. Still," returned the gentleman, "I wish I could say they were not."*
+> 
+> *"The Treadmill and the Poor Law are in full vigour, then?" said Scrooge.*
+>
+> *"Both very busy, sir."*
+>
+> *"Oh! I was afraid, from what you said at first, that something had occurred to stop them in their useful course," said Scrooge. "I'm very glad to hear it."*
+
+In 1834, the [Poor Law Amendment Act](https://en.wikipedia.org/wiki/Poor_Law_Amendment_Act_1834) grouped local church parishes into unions and charged them with the responsibility of caring for the poor through workhouses. The Act was [highly controversial](https://en.wikipedia.org/wiki/Opposition_to_the_English_Poor_Laws#Opposition_to_the_1834_Poor_Law_Amendment_Act) and arguably led to underemployment and starvation. 
+
+Charles Dickens was especially not a fan, and he dedicated a whole novel to critiquing them (*Oliver Twist*), and he had Scrooge praise them in *A Christmas Carol*.
+
+[Ancestry.com has an incredible 115-page book](https://search.ancestry.com/search/db.aspx?dbid=61439) that lists all 14,216 people that had been been inmates for at least 5 years in all workhouses in England and Wales as of 1861. Eighteen years after Scrooge's 1843 Christmas conversion, workhouses were still incredibly well-used and housed all those who were "unable to maintain themselves." 
+
+<figure>
+![Workhouse statistics](/images/class/workhouse-stats.png)
+</figure>
+
+^[{-} *Important note*: If you're using macOS, you need to [download and install XQuartz](https://www.xquartz.org/) first.] Today, we're going to use R/Excel, Illustrator, and InDesign to quickly make a fake policy brief using the text from Dickens' *A Christmas Carol* and 1861 workhouse inmate data.
+
+Download the following files:
+
+- [<i class="fa fa-download" aria-hidden="true"></i> *A Christmas Carol*, Stave I](/class/christmas-carol-stave1.docx) ^[[Text from Project Gutenberg](https://www.gutenberg.org/ebooks/46)]
+- [<i class="fa fa-download" aria-hidden="true"></i> Workhouse inmates, 1861](/data/workhouse_inmates.xlsx) ^[Data from [Ancestry.com, *England and Wales, Long-Term Workhouse Inmates, 1861*](https://search.ancestry.com/search/db.aspx?dbid=61439), Lehi, UT, USA: Ancestry.com Operations, Inc., 2017. Original data: Long-Term Workhouse Inmates, 1861, Peter Higginbotham, [workhouses.org.uk](http://workhouses.org.uk/).]
+
+Nowadays, [we have better terms for the types of mental illness](https://www.medscape.com/viewarticle/778288) noted by the 19th century workhouse statisticians:
+
+- *Idiocy, imbecility*: intellecutal disabilities, such as fragile X syndrome, Prader-Willi syndrome, William syndrome, Rett syndrome, autism, etc.
+- *Insanity, lunacy, weak mindedness*: mental illnesses, such as dementia, schizophrenia, melancholia, anxiety, depression, manic-depressive illness, bipolar disorder, etc.
+
+```{r load-data, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(forcats)
+library(readxl)
+
+inmates <- read_excel("data/workhouse_inmates.xlsx", sheet = "Inmates")
+```
+
+```{r plot-types, fig.width=6, fig.height=2}
+general_type <- inmates %>%
+  group_by(Category) %>%
+  summarize(total = sum(Count)) %>%
+  ungroup() %>%
+  arrange(total) %>%
+  mutate(Category = fct_inorder(Category))
+
+plot_types <- ggplot(general_type, aes(x = Category, y = total)) +
+   geom_pointrange(aes(ymin = 0, ymax = total),
+                  size = 1, fatten = 5) + 
+  scale_y_continuous(labels = scales::comma) +
+  labs(x = NULL, y = NULL) +
+  coord_flip() + 
+  theme_minimal() +
+  theme(panel.grid.major.y = element_blank(),
+        panel.background = element_rect(fill = "transparent", colour = NA),
+        plot.background = element_rect(fill = "transparent", colour = NA))
+
+plot_types
+```
+
+```{r save-types, eval=FALSE}
+ggsave(plot_types, filename = "output/types.pdf",
+       width = 6, height = 2, units = "in", bg = "transparent", device = cairo_pdf)
+```
+
+```{r plot-mental-diseases, fig.width=6, fig.height=3}
+mental_diseases <- inmates %>%
+  filter(Category == "Mental disease") %>%
+  group_by(Cause) %>%
+  summarize(total = sum(Count)) %>%
+  ungroup() %>%
+  arrange(total) %>%
+  mutate(Cause = fct_inorder(Cause))
+
+plot_mental_diseases <- ggplot(mental_diseases, aes(x = Cause, y = total)) +
+  geom_pointrange(aes(ymin = 0, ymax = total),
+                  size = 1, fatten = 5) + 
+  scale_y_continuous(labels = scales::comma) +
+  labs(x = NULL, y = NULL) +
+  coord_flip() +
+  theme_minimal() +
+  theme(panel.grid.major.y = element_blank(),
+        panel.background = element_rect(fill = "transparent", colour = NA),
+        plot.background = element_rect(fill = "transparent", colour = NA))
+
+plot_mental_diseases
+```
+
+```{r save-mental-diseases, eval=FALSE}
+ggsave(plot_mental_diseases, filename = "output/mental-diseases.pdf",
+       width = 6, height = 3, units = "in", bg = "transparent", device = cairo_pdf)
+```
+
+
+# Feedback for today
+
+Go to [this form](https://goo.gl/forms/M7vfSAmNgoVQbjMw1) and answer these three questions (anonymously if you want):
+
+1. What new thing did you learn today?
+2. What was the most unclear thing about today's class?
+3. What was the most exciting thing you learned today?
