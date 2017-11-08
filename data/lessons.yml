@@ -25,14 +25,14 @@ lessons:
   - title: "Thinking like a designer"
     date: "November 8 (W)"
     reading: "05-reading"
-  
-  - title: "**Project 1 due**"
-    date: "November 10 (F)"
 
   - title: '<span class="newthought">narrative</span><br>'
   - title: "Principles of storytelling and resonating"
     date: "November 13 (M)"
     reading: "06-reading"
+
+  - title: "⊞ **Project 1 due**"
+    assignment: "01-project"
 
   - title: "Heroes, myths, and journeys I"
     date: "November 15 (W)"

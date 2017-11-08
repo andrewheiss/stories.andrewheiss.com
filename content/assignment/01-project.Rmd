@@ -1,0 +1,58 @@
+---
+title: "Project 1: Anti-Human Trafficking NGOs and the US"
+date: "2017-11-13"
+due_date: "2017-11-13"
+due_time: "11:59 PM"
+---
+
+<span class="newthought">[Human trafficking](https://www.scorecarddiplomacy.org/human-trafficking/) is a difficult and ugly global policy issue.</span> Since the signing and adoption of the [2000 Palermo Protocol to Prevent, Suppress and Punish Trafficking in Persons](https://en.wikipedia.org/wiki/Protocol_to_Prevent,_Suppress_and_Punish_Trafficking_in_Persons,_especially_Women_and_Children), the United States^[{-} The US has been able to [wield significant diplomatic influence through the TIP report rankings](https://www.scorecarddiplomacy.org), and rating countries has become a unique way of exerting power.] has taken the lead in pushing for criminalization of trafficking around the world, primarily through the State Department's annual Trafficking in Persons (TIP) report, which ranks countries according to how well they attempt to curtail trafficking.
+
+<figure>
+
+![](/images/assignment/human-trafficking.png)
+
+</figure>
+
+Anti-trafficking nongovernmental organizations (NGOs) have been close partners with the US State Department and have been instrumental in lobbying for criminalization and caring for TIP victims throughout the world. In 2014, Andrew Heiss and Judith Kelley conducted a global survey anti-TIP NGOs to see how they feel about their partnerships with the US.^[See Andrew Heiss and Judith G. Kelley, "From the Trenches: A Global Survey of Anti-TIP NGOs and their Views of US Efforts," *Journal of Human Trafficking* 3 (2017), [doi:10.1080/23322705.2016.1199241](https://dx.doi.org/10.1080/23322705.2016.1199241)] 
+
+In your first project, you will use typesetting software ([InDesign](https://www.adobe.com/products/indesign.html), [Publisher](https://products.office.com/en-us/publisher), or [Scribus](https://www.scribus.net/)) to create a 2–3-page policy brief describing some of the results of this survey.
+
+Here's what you need to do:
+
+1. Go to GitHub and [**download** the raw data and output for the survey](https://github.com/andrewheiss/BUS-M-491R-Fall-2017-Project-1).^[{-} Click on the big green button named "Clone or download" and choose "Download ZIP"]
+2. **Unzip** the directory and explore its contents:
+
+    - `┌── Project 1.Rproj`: The RStudio project file. Double click this to open all the files in RStudio
+    - `├── assets`
+        - `  └── Manuscript.docx`: The text of the report excerpt
+    - `├── data`
+        - `  ├── ne_50m_admin_0_countries`
+            - `    └── <world shapefiles>`: Geographic shapefiles from the [Natural Earth Project](http://www.naturalearthdata.com/)
+        - `  └── responses_full_anonymized.csv`: Raw survey data from the article in *Journal of Human Trafficking* and the book [*Scorecard Diplomacy*](https://www.scorecarddiplomacy.org/survey/data/)
+    - `├── generate_output.Rmd`: R script that generates all the output files
+    - `├── generate_output.pdf`: PDF describing how all the output files are generated
+    - `└── output`
+        - `  └── <lots of things>`: PDF images, aggregated data in CSV files, and figure/table captions for the content you will add to the manuscript
+
+3. **Create** a new document with the typesetting software of your choice, place the manuscript text, images, and table.
+4. **Design** the document following best design^[{-} Remember CRAP!] and storytelling principles.
+    - *Important note*: Try to avoid using the PDF images I have given you, since they use some default color and a default font. You'll need to open the PDFs in Illustrator or Inkscape to refine and enhance them before placing them in your document.
+    
+        If you're feeling adventurous, tinker with the R code to adjust colors and figure widths.^[{-} You'll need to install some additional packages and software for the code to run. Install the `countrycode` package with RStudio and [follow the instructions here](https://datavizf17.classes.andrewheiss.com/assignment/07-assignment/#task-2-make-a-map) to get everything set up.] You can also remake the graphs with Excel (which is why I provided the aggregated data), or just make all your modifications in Illustrator or Inkscape.
+        
+        *Extra hint*: The [full policy brief that this is excercpted from is online](https://www.scorecarddiplomacy.org/survey/ngo-report/). However, it is not necessarily the best example, nor does it necessarily follow best design and storytelling practices (the graphs are gigantic, for instance). Other examples of policy briefs abound on the internet (see [this by POMED](http://pomed.org/wp-content/uploads/2013/03/POMED-Policy-Brief-Bush-March-2013.pdf), or [this (really basic one) from the Scholars Strategy Network](http://www.scholarsstrategynetwork.org/sites/default/files/ssn_basic_facts_holbein_and_carnes_on_political_equality_for_the_poor_1.pdf)).
+5. **Export** the final brief as a PDF.
+6. **Write** a memo (no word limit) explaining your design process. I'm specifically looking for the following:
+    - Who is the audience for your document?
+    - What story are you telling with your document?
+    - How did you apply the principles of CRAP?
+    - How do the design principles you used match audience needs and enhance the story?
+7. **Submit** the following outputs on Learning Suite:
+    - A PDF of your final, well-designed policy brief
+    - A PDF of the memo describing your design process
+
+You will be graded on how you typesetting and vector editing software^[{-} [![Example rubric for project 1](/images/rubrics/project1_rubric.png)](/assignment/rubrics/project1_rubric.pdf)] and how well you apply the principles of CRAP, and how appropriate the design is for the data and the story you're telling. I will use [this rubric](/assignment/rubrics/project1_rubric.pdf) to grade the final product.
+
+**The assignment is due by 11:59 PM on Monday, November 13.**
+
+You can do this.
