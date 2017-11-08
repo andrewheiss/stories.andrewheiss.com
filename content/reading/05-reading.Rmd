@@ -9,12 +9,22 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Chapters 5 and 6 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
-- Other readings TBA
-
-# Recommended
-
-- TBA
+- Watch and work through these tutorials about Illustrator (you can speed them up to 1.5× or 2× if you want):^[{-} These are all specific to Illustrator and InDesign, but the same principles apply to Inkscape and Scribus (though tools and options will have different names). I recommend learning the Adobe products now while you have free or cheap access to them, and then in the future when you won't necessarily have access to Adobe's Creative Cloud, you'll be able to translate your skills to Inkscape or Scribus.]
+    - [Set up a new document](https://helpx.adobe.com/illustrator/how-to/create-new-document.html)
+    - [Get to know Illustrator](https://helpx.adobe.com/illustrator/how-to/ai-basics-fundamentals.html)
+    - [Create and edit shapes](https://helpx.adobe.com/illustrator/how-to/shapes-basics.html)
+    - [Add text to your designs](https://helpx.adobe.com/illustrator/how-to/text-basics.html)
+    - [Organize content with layers](https://helpx.adobe.com/illustrator/how-to/ai-layers-basics.html)
+    - [Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
+- Watch and work through these tutorials about InDesign (again, feel free to speed them up): 
+    - [Explore InDesign basics](https://helpx.adobe.com/indesign/how-to/indesign-working-with-tools.html)
+    - [Create a new document](https://helpx.adobe.com/indesign/how-to/new-document-in-indesign.html)
+    - [Create a layout with text and graphics](https://helpx.adobe.com/indesign/how-to/indesign-add-text-to-frames.html)
+    - [Format text](https://helpx.adobe.com/indesign/how-to/text-formatting-overview.html)
+    - [Add and transform graphics](https://helpx.adobe.com/indesign/how-to/add-work-with-graphics.html)
+    - [Create a one-page newsletter](https://helpx.adobe.com/indesign/how-to/newsletter-template.html) and/or [Create a brochure](https://helpx.adobe.com/indesign/how-to/make-brochure.html)
 
 # Questions to reflect on
 
--	TBA
+-	How are affordances, accessibility, and aesthetics related to CRAP and the Gestalt principles of visual perception?
+- What are the common elements of good design in each of Nussbaumer Knaflic's examples in chapter 6?
