@@ -1,7 +1,7 @@
 ---
 title: "Project 1: Anti-Human Trafficking NGOs and the US"
-date: "2017-11-13"
-due_date: "2017-11-13"
+date: "2017-11-15"
+due_date: "2017-11-15"
 due_time: "11:59 PM"
 ---
 
