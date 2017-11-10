@@ -1,0 +1,25 @@
+---
+title: "Thinking like a designer + principles of storytelling"
+date: "2017-11-06"
+due_date: "2017-11-06"
+due_time: "11:59 AM"
+---
+
+# Reflection memo
+
+Write a 500-word memo about the assigned readings ([class 5](/reading/05-reading/); [class 6](/reading/06-reading/)) for this week. You can (should) use some of the prompt questions there if you want:
+
+-	How are affordances, accessibility, and aesthetics related to CRAP and the Gestalt principles of visual perception?
+- What are the common elements of good design in each of Nussbaumer Knaflic's examples in chapter 6?
+- Why are stories so powerful?
+- Which of Nussbaumer Knaflic's tactics to ensure your story is clear is most helpful to you?
+-	According to Duarte, what's the difference between presentations, facts, people, and stories?
+- What does Duarte mean when she says the audience should be the hero?
+
+As you write the memo, also consider these central questions:
+
+- How do these readings connect to our main goal of discovering truth?
+- How does what I just read apply to me?
+- How can this be useful to me?
+
+Submit the memo as "Reflection 3" on Learning Suite by noon on Monday.
