@@ -10,12 +10,10 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - Chapter 7 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
 - Chapter 1 in Nancy Duarte, *Resonate* [@Duarte:2010]
-- Other readings TBA
-
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+- Why are stories so powerful?
+- Which of Nussbaumer Knaflic's tactics to ensure your story is clear is most helpful to you?
+-	According to Duarte, what's the difference between presentations, facts, people, and stories?
+- What does Duarte mean when she says the audience should be the hero?

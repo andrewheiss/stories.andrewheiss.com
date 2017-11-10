@@ -9,12 +9,11 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Chapter 2 in Nancy Duarte, *Resonate* [@Duarte:2010]
-- Other readings TBA
-
-# Recommended
-
-- TBA
+- [Benjamin Zander, "The Transformative Power of Classical Music"](https://www.ted.com/talks/benjamin_zander_on_music_and_passion)
+- [Weasleys and Rostovs and Mormons—Oh My](https://www.youtube.com/watch?v=YO16hGVpngY)
 
 # Questions to reflect on
 
--	TBA
+- How does structure contribute to a story's resonance and power?
+- What is the role of drama in communicating science and research?
+- What deeper social messages are communicated through stories like *Harry Potter* and *War and Peace*?
