@@ -1,0 +1,72 @@
+---
+title: "Project 2: Selma and Sparklines"
+date: "2017-11-21"
+due_date: "2017-11-21"
+due_time: "11:59 PM"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+<span class="newthought">"Incorporating story into presentations</span> has an exponential effect on outcomes."[@Duarte:2010, 53] Powerful presentations and speeches have latent structures hidden in them that make them resonate with audiences, helping listeners see *what is* and gain a vision of *what could be*.
+
+<figure>
+
+![](/images/assignment/obama-selma.jpg)
+
+</figure>
+
+In March 2015, President Barack Obama delivered a speech at the Edmund Pettus Bridge in Selma, Alabama to mark the 50th anniversary of the [Selma to Montomery marches](https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches), led by Martin Luther King, Jr. in 1965. Obama discussed the legacy of the civil rights movement and connected it to issues facing modern America, including race relations, voting rights, and the protection of minorities. 
+
+President George W. Bush's speechwriter Michael Gerson said that "[[i]t falls into the category of speeches that every child should read in school](https://www.washingtonpost.com/posteverything/wp/2016/07/22/which-barack-obama-speech-is-the-one-for-the-history-books/)," and former Obama speechwriter Jon Favreau claimed that "[[i]t was certainly among his very best](https://www.nytimes.com/politics/first-draft/2015/03/09/obamas-selma-speech-considered-among-his-very-best/)." 
+
+But why?
+
+Apart from the subject matter of the speech^[Which may or may not align with your personal political beliefs; the point of this exercise is identifying rhetoric, not applauding or criticizing political positions.] its rhetorical structure is powerful.
+
+In your second project, you will (1) practice identifying the core structural elements of storytelling in a speech, and (2) practice your newfound graphic design skills. You will use Illustrator (or [Gravit Designer](https://designer.io/), [Inkscape](https://inkscape.org/en/), or any other vector editor) to create a sparkline of President Obama's 2015 Selma speech.
+
+Here's what you need to do:
+
+1. [**Watch**](https://obamawhitehouse.archives.gov/the-press-office/2015/03/07/remarks-president-50th-anniversary-selma-montgomery-marches) and [**read**](https://www.youtube.com/watch?v=gvAIvauhQGQ) Obama's speech, identifying which parts of the speech address *what is* and *what could be*. Note the timestamps of applause, changes in themes, use of scripture, political events, historical events, and other important rhetorical elements. 
+2. ^[{-} ![Example sparkline](/images/assignment/sparkline-example.png)] **Create** a sparkline of the speech following Nancy Duarte's structure on pp. 46–47 in *Resonate*. You should look at her worked-out examples in the book for ideas about how to design, structure, and annotate your sparkline, including:
+    - Benjamin Zander's TED talk (pp. 50–51)
+    - Richard Feynman's lecture (pp. 132–33)
+    - John Ortberg's sermon (pp. 156–57)
+    - Steve Jobs's 2007 iPhone launch (pp. 164–65)
+    - Martin Luther King, Jr.'s "I Have a Dream" speech (pp. 206–09)
+
+    Your sparkline **must include the following**:
+    
+    - Thick lines showing when the speech addresses *what is* and *what could be*
+    - Colored sections of those lines marking different thematic elements (of your choosing). Note how Duarte identifies different themes in her sparklines—in "I Have a Dream," she identifies repetition, metaphor, songs/scriptures/literatures, and political references, while in Steve Jobs's iPhone announcement, she identifies video, demonstrations, speaking, and guest speakers. You'll need to identify a set of thematic elements that make the most sense for this speech.
+    - Ticks marking meta-speech events, like applause, laughter, marvel, etc.
+    - Lines demarcating the speech's beginning, middle, and end
+    - Textual annotations pointing out when and how Obama establishes *what is*, *what could be*, how he engages the audience, how he creates emotional contrast, when and how he calls the audience to action, etc.
+    
+    You should use vector editing software to create this sparkline. To help you, I've given you a skeleton file to start with. Change, update, and modify this to your heart's content (or don't even use it if you don't want). The font the file currently uses is Roboto Condensed (which you can [download from Google Fonts for free](https://fonts.google.com/specimen/Roboto+Condensed)). Download one of these files to get started:
+    
+    - [<i class="fa fa-download" aria-hidden="true"></i> `sparkline-skeleton.ai`](/assignment/sparkline-skeleton.ai): For Adobe Illustrator
+    - [<i class="fa fa-download" aria-hidden="true"></i> `sparkline-skeleton.svg`](/assignment/sparkline-skeleton.svg): For Inkscape or Gravit Designer or pretty much any vector editor
+    - [<i class="fa fa-download" aria-hidden="true"></i> `sparkline-skeleton.pdf`](/assignment/sparkline-skeleton.pdf): Also for pretty much any vector editor
+
+3. **Export** the final sparkline as a PDF.
+4. **Write** a memo (no word limit) explaining your identification and design process. I'm specifically looking for the following:
+    - What rhetorical and structural elements did you identify? Why did you color the line segments the way you did?
+    - Does the structure of the speech contribute to its resonance? How or how not?
+    - How did you apply the principles of CRAP to your sparkline?
+5. **Submit** the following outputs on Learning Suite:
+    - A PDF of your final, well-designed sparkline
+    - A PDF of the memo describing your identification and design process
+
+You will be graded on well you identify the structural elements of the speech,^[{-} [![Example rubric for project 2](/images/rubrics/project2_rubric.png)](/assignment/rubrics/project2_rubric.pdf)] how useful and detailed your sparkline is, and how well you apply the principles of CRAP to your sparkline. I will use [this rubric](/assignment/rubrics/project2_rubric.pdf) to grade the final product.
+
+**The assignment is due by 11:59 PM on Tuesday, November 21.**
+
+You've got this.
+
+<figure>
+
+![](https://media.giphy.com/media/10spcFioEOY7zG/giphy.gif)
+
+</figure>
