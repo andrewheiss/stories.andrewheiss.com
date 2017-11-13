@@ -51,7 +51,7 @@ Here's what you need to do:
     - A PDF of your final, well-designed policy brief
     - A PDF of the memo describing your design process
 
-You will be graded on how you typesetting and vector editing software^[{-} [![Example rubric for project 1](/images/rubrics/project1_rubric.png)](/assignment/rubrics/project1_rubric.pdf)] and how well you apply the principles of CRAP, and how appropriate the design is for the data and the story you're telling. I will use [this rubric](/assignment/rubrics/project1_rubric.pdf) to grade the final product.
+You will be graded on how well you use typesetting and vector editing software^[{-} [![Example rubric for project 1](/images/rubrics/project1_rubric.png)](/assignment/rubrics/project1_rubric.pdf)] and how well you apply the principles of CRAP, and how appropriate the design is for the data and the story you're telling. I will use [this rubric](/assignment/rubrics/project1_rubric.pdf) to grade the final product.
 
 **The assignment is due by 11:59 PM on Monday, November 13.**
 
