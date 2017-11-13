@@ -1,0 +1,21 @@
+---
+title: "Principles of storytelling and resonating"
+date: "2017-11-13"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+The slides for today's lecture will go here.
+
+
+# Feedback for today
+
+Go to [this form](https://goo.gl/forms/sTHHOtL4AjdoXCI52) and answer these three questions (anonymously if you want):
+
+1. What new thing did you learn today?
+2. What was the most unclear thing about today's class?
+3. What was the most exciting thing you learned today?
