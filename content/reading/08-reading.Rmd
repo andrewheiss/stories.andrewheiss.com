@@ -9,12 +9,11 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Chapters 3 and 4 in Nancy Duarte, *Resonate* [@Duarte:2010]
-- Other readings TBA
+- Read your assigned article at least once
 
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+-	How can you know who your audience is? What if it's not a specific group of people that will be in a room? How do you tailor your stories to huge audiences (like in a blog post, op ed, or tweet?)
+- How does viewing yourself as a mentor change your presentation style?
+- How can you encourage audiences (i.e. the hero) to change?
