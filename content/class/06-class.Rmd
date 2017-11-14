@@ -9,7 +9,17 @@ output:
 
 # Slides
 
-The slides for today's lecture will go here.
+[Download the slides from today's lecture](/slides/BUSM-491R_2017-11-13.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2017-11-13.png)](/slides/BUSM-491R_2017-11-13.pdf)
+</figure>
+
+
+# Every Story is the Same
+
+- [Every Story is the Same](https://www.youtube.com/watch?v=LuD2Aa0zFiA)
+- [Dan Harmon's series on storytelling](http://channel101.wikia.com/wiki/Story_Structure_101:_Super_Basic_Shit)^[Language warning, though…]
 
 
 # Feedback for today
