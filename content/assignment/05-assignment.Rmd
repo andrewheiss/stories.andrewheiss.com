@@ -1,0 +1,37 @@
+---
+title: "Content and contrast"
+date: "2017-11-27"
+due_date: "2017-11-27"
+due_time: "11:59 AM"
+---
+
+# Task 1: Audience analysis
+
+Read through your assigned article again and describe the following:
+
+- Create a one-sentence Big Idea, following Duarte's instructions in chapter 4
+- Identify the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for these versions of your article:
+    - 60-minute presentation
+    - 10-minute presentation
+    - Policy brief
+    - Op-ed
+    - Blog post
+    - Tweet
+
+
+# Task 2: Reflection memo
+
+Write a 500-word memo about the assigned readings ([class 9](/reading/09-reading/)) for this week. You can (should) use some of the prompt questions there if you want:
+
+-	How do you find the right balance of pathos, ethos, and logos in a presentation?
+- How does contrast create change and motivate audiences?
+- What is Hans Rosling's Big Idea? How does Hans Rosling use contrast when presenting that idea?
+- How does Alan Alda's experience with improv comedy and science communication relate to *Resonate*?
+
+As you write the memo, also consider these central questions:
+
+- How do these readings connect to our main goal of discovering truth?
+- How does what I just read apply to me?
+- How can this be useful to me?
+
+Submit the audience analysis **and** the memo as "Reflection 5" on Learning Suite by noon on Monday.
