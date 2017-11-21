@@ -71,6 +71,7 @@ lessons:
   - title: "Ethics of storytelling with science"
     date: "December 4 (M)"
     reading: "11-reading"
+    assignment: "06-assignment"
 
   - title: '<span class="newthought">delivery</span>'
   - title: "Delivery I"
@@ -80,6 +81,7 @@ lessons:
   - title: "Delivery II"
     date: "December 11 (M)"
     reading: "13-reading"
+    assignment: "07-assignment"
 
   - title: "Truth, Beauty, and Stories, revisited"
     date: "December 13 (W)"

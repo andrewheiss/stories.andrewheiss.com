@@ -1,0 +1,27 @@
+---
+title: "Structure + ethics of storytelling"
+date: "2017-12-04"
+due_date: "2017-12-04"
+due_time: "11:59 AM"
+---
+
+# Reflection memo
+
+Write a 500-word memo about the assigned readings ([class 10](/reading/10-reading/); [class 11](/reading/11-reading/)) for this week. You can (should) use some of the prompt questions there if you want:
+
+-	How do organizational structures enhance (or detract from) the resonance of a presentation?
+- Duarte's final rule for the section is that "Structure is greater than the sum of its parts." How so?
+- How does Alda treat presentation structure in his book?
+- Is it ethical to emphasize certain aspects of the facts in data more than others? How do you decide which facts to use to convince audiences?
+- When you're telling a story about data, you're inherently manipulating audience emotions. Is that okay?
+- In Nussbaumer Knaflic's complete example, the "after" version of the graphic is much more readable and impactful than the "before" version (see p. 205). The "after" version tells a complete story—but did it drop any other aspects of the data in the service of that story? Is that okay?
+- What's the difference between tailoring data for specific audiences and "dumbing it down"?
+- How does anti-intellectualism relate to science and data communication?
+
+As you write the memo, also consider these central questions:
+
+- How do these readings connect to our main goal of discovering truth?
+- How does what I just read apply to me?
+- How can this be useful to me?
+
+Submit the memo as "Reflection 6" on Learning Suite by noon on Monday.
