@@ -8,13 +8,15 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-- Thing
-- Other readings TBA
+- [Treasuring All Truth](http://www.mormonnewsroom.org/article/treasuring-all-truth)
 
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+- What is truth?
+- How do we find truth?
+- Are facts truth?
+-	How are stories related to truth? 
+- What's the difference between content and form?
+- Does beauty matter when describing truth or telling stories?
+- How does any of this philosophical humanities stuff relate to science and data communication?

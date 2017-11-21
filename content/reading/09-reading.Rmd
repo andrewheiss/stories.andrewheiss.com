@@ -10,12 +10,12 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - Chapter 5 in Nancy Duarte, *Resonate* [@Duarte:2010]
 - Introduction to chapter 6 in Alan Alda, *If I Understood You, Would I Have This Look on My Face?* [@Alda:2017]
-- Other readings TBA
+- [The best stats you've ever seen](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
 
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+-	How do you find the right balance of pathos, ethos, and logos in a presentation?
+- How does contrast create change and motivate audiences?
+- What is Hans Rosling's Big Idea? How does Hans Rosling use contrast when presenting that idea?
+- How does Alan Alda's experience with improv comedy and science communication relate to *Resonate*?

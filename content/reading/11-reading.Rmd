@@ -10,12 +10,18 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - Chapter 8 in Cole Nussbaumer Knaflic, *Storytelling with Data* [@Knaflic:2015]
 - Chapters 12–16 in Alan Alda, *If I Understood You, Would I Have This Look on My Face?* [@Alda:2017]
-- Other readings TBA
+- [Tweet by \@JSheltzer](https://twitter.com/JSheltzer/status/930216266916335618)^[The tweet he's referring to has since been deleted, but it said something along the lines of needing to dumb down all science communication so that your mom can understand it.]
+- [Alvin Stone, "The arrogance of 'dumbing it down'"](https://www.linkedin.com/pulse/arrogance-dumbing-down-alvin-stone/)
+- [Amanda Hess, "Enough With the Ageist, Sexist Mom Jokes"](http://www.slate.com/blogs/xx_factor/2014/04/03/how_to_explain_bitcoin_to_your_mom_the_new_york_times_thinks_mothers_are.html)
+- [So simple, your mother could do it](http://geekfeminism.wikia.com/wiki/So_simple,_your_mother_could_do_it)
+- [Chris Stroop, "Educated Evangelicals, Academic Achievement, and Trumpism: On the Tensions in Valuing Education in an Anti-Intellectual Subculture"](https://chrisstroop.com/2017/03/06/educated-evangelicals-academic-achievement-and-trumpism-on-the-tensions-in-valuing-education-in-an-anti-intellectual-subculture/)
+- [Aaron S. Lecklider, "Are Americans Really Anti-Intellectual?"](http://www.scholarsstrategynetwork.org/brief/are-americans-really-anti-intellectual)
 
-# Recommended
-
-- TBA
 
 # Questions to reflect on
 
--	TBA
+- Is it ethical to emphasize certain aspects of the facts in data more than others? How do you decide which facts to use to convince audiences?
+- When you're telling a story about data, you're inherently manipulating audience emotions. Is that okay?
+- In Nussbaumer Knaflic's complete example, the "after" version of the graphic is much more readable and impactful than the "before" version (see p. 205). The "after" version tells a complete story—but did it drop any other aspects of the data in the service of that story? Is that okay?
+- What's the difference between tailoring data for specific audiences and "dumbing it down"?
+- How does anti-intellectualism relate to science and data communication?
