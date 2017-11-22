@@ -38,7 +38,7 @@ Each research presentation has a structure that has to change depending on the m
 - A two-page policy brief
 - An op-ed
 - A 400-word blog post
-- A three-tweet tweetstorm
+- A three-tweet thread
 - A single tweet^[A true 140-character tweet, not one of the new abonimable 280-character missives.]
 
 ## Story maps
