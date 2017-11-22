@@ -1,0 +1,140 @@
+---
+title: "Final project: Story portfolio"
+date: "2017-12-21"
+due_date: "2017-12-21"
+due_time: "3:00 PM"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+<span class="newthought">Stories are how</span> we translate core, essential *content* to different *forms* for specific *audiences.* Throughout this course, you have become an expert in doing this. Now you get to show off your shiny new skills.
+
+For your final project, you will create a collection of stories for an academic research article that you've already selected. Here's what you need to do and make. ***Pay attention***—there are a lot of moving parts.
+
+
+# Big Idea
+
+1. **Write** a one-paragraph summary of your article and its main findings
+1. **Condense** the Big Idea of your research paper into a single sentence, following Duarte's instructions in chapter 4
+
+
+# Outline for a 60-minute talk
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for a hypothetical 60-minute talk
+2. Using Word, **write** a detailed outline for the talk. You can include a skeleton PowerPoint presentation with figures, images, and other graphic elements.
+3. **Write** a description of your outline, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments?
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts will you present, and when? 
+    - How is the structure of the talk connected to your audience segmentation analysis?
+    - How does the presentation guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+
+
+# 10-minute presentation
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for an actual 10-minute talk
+2. Using Word, **write** a brief outline for the talk.
+3. Using PowerPoint, **create** a well-designed presentation to tell your story to your audience
+4. During the final exam for the class, **present** the presentation to the class
+5. **Write** a description of your presentation, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments?
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure and design of the presentation connected to your audience segmentation analysis?
+    - How does the presentation guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+    - How did you apply the principles of CRAP to your presentation?
+
+
+# 2-page policy brief
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for a 2-page policy brief
+2. Using Word, **write** the text for the brief
+3. Using Excel or R, create **at least two figures** (bar charts, scatterplots, maps, etc.) based on the data in the research article.
+4. Using Illustrator, **enhance** the figures by highlighting trends, adding annotations, helpful captions, etc. Ensure that you follow the best practices you learned from Nussbaumber Knaflic's *Storytelling with Data* (review chapter 8).
+5. Place the Word file and the PDFs you enhanced with Illustrator into InDesign and **create** a well-designed brief (similar to what you did in [Project 1](/assignment/01-project/)).
+6. **Write** a description of your brief, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments?
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure and design of the brief connected to your audience segmentation analysis?
+    - How does the brief guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+    - How did you apply the principles of CRAP to your brief?
+
+
+# 800-word op-ed
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for an 800-word op-ed that could hypothetically be published in an actual newspaper (either Utah-based, such as the Salt Lake Tribune or Deseret News, or national, such as the Washington Post or New York Times)
+2. Using Word, **write** the text for the op-ed
+3. **Write** a description of your op-ed, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments?
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure of the op-ed connected to your audience segmentation analysis?
+    - How does the op-ed guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+
+
+# 400-word blog post
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for a 400-word blog post that could hypothetically be published by a blog that specializes in the subject matter of your article
+2. Using Word, **write** the text for the blog post
+3. **Write** a description of your blog post, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments? 
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure of the blog post connected to your audience segmentation analysis?
+    - How does the blog post guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+
+
+# 3-tweet thread
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for a thread of three tweets
+2. **Write** the text for the tweets. Nowadays, tweets have a 280-character limit. Tweets can include up to four pictures and one link without penalizing your character count, so you might want to take advantage of images or screenshots. Follow [\@JohnHolbein1](https://twitter.com/JohnHolbein1) for good examples of how to potentially do this.
+3. **Write** a description of your tweets, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments? 
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure of the thread of tweets connected to your audience segmentation analysis?
+    - How does the thread of tweets guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+4. If you have a Twitter account, **post** the thread. To create a thread, reply to the previous tweet.^[That is, post the first tweet, reply to it, post the second tweet in the reply, reply to *that*, and post the third tweet in the reply to the second. If you actually post your thread, I want to see it—reply one more time and tag me ([\@andrewheiss](https://twitter.com/andrewheiss)) in the fourth tweet.]
+
+
+# A single tweet
+
+1. **Identify** the (1) main audience, (2) audience segments, and (3) the benefits and risks for each of the segments for a single tweet.
+2. **Write** the text for the tweet. Again, nowadays, tweets have a 280-character limit.
+3. **Write** a description of your tweet, explaining the following:
+    - Who is your audience, what are its segments, and what are the benefits and risks for each of those segments? 
+    - How do you establish *what is*? How do you envision *what could be*? What kind of narrative contrast do you use to get there?
+    - What evidence and facts do you present, and when? 
+    - How is the structure of the tweet connected to your audience segmentation analysis?
+    - How does the tweet guide your audience on a journey to change and accept your big idea?
+    - What rhetorical devices or graphical elements will you use to create STAR moments?
+4. If you have a Twitter account, **post** the tweet.^[If you actually post your tweet, I want to see it—reply to it and tag me ([\@andrewheiss](https://twitter.com/andrewheiss)) in the second tweet.]
+
+
+# Complete portfolio
+
+Once you've created all these different story forms, compile them into a single PDF (using InDesign will likely be the easiest way to do this). **Please look at [this example of a final portfolio](/assignment/final-portfolio-example.pdf) to see how you might structure your project.**
+
+
+# Final deliverables
+
+In the end, I need the following outputs from you:
+
+- A single PDF of your complete portfolio, uploaded to Learning Suite by 3:00 PM on Thursday, December 21.
+- A 10-minute in-person presentation, completed between 3:00–6:00 PM on Thursday, December 21. You should plan on attending the whole exam period to watch everyone else's presentations.
+
+**No late work will be accepted for this project since it counts as your final exam.**
+
+Each element of the portfolio will be graded on how well you tell a story that is appropriate to its given audience, and (where applicable), how well you apply the principles of CRAP and data visualization. I will use **this rubric** to grade the final project.^[Rubric forthcoming.]
+
+^[{-} ![Clapping](https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif)] I am happy to give feedback and help along the way—just not at, like, 2 PM on the day it's due. Please don't hesitate to come and get help!
+
+And that's it. You're done! Go out into the world now and tell powerful, persuasive, and truthful stories.
