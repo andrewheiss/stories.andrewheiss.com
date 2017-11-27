@@ -39,11 +39,7 @@ Each research presentation has a structure that has to change depending on the m
 - An op-ed
 - A 400-word blog post
 - A three-tweet thread
-- A single tweet^[A true 140-character tweet, not one of the new abonimable 280-character missives.]
-
-## Story maps
-
-Midway through the semester, you will map out the structure of your article and then create outlines for each of the parts of the story portfolio. You will receive peer feedback and feedback from me about the narrative structures you create.
+- A single tweet
 
 ## Final presentation
 
