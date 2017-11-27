@@ -1,0 +1,47 @@
+---
+title: "Project 3: Making stress your friend"
+date: "2017-12-04"
+due_date: "2017-12-04"
+due_time: "11:59 PM"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+---
+
+<span class="newthought">Stress can be awful.</span> It's the end of the semester and we're all facing intense demands on our time. Stress can also trigger mental health issues such as anxiety and depression. 
+
+Emerging research is finding that there are possible upsides to stress, though, such as heightened motivation. Interestingly, research is also finding that reaching out to others can be a powerful anti-stressor. 
+
+<figure>
+
+![](/images/assignment/stress-mcgonigal.jpg)
+
+</figure>
+
+
+In your third project, you will create a one-page handout (a staple of business and policy presentations) for a TED talk about the academic research regarding stress. Here's what you need to do:
+
+1. [**Watch**](https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend) Dr. Kelly McGonigal's June 2013 TEDGlobal talk and **read/skim** the three papers she references:
+    - Abiola Keller et al., "Does the Perception That Stress Affects Health Matter? The Association with Health and Mortality" [@KellerLitzelmanWisk:2012]&ensp;[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3374921/pdf/nihms357494.pdf)&ensp;[<i class="fa fa-globe" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3374921/)
+    - Jeremy P. Jamieson, Matthew K. Nock, and Wendy Berry Mendes, "Mind over Matter: Reappraising Arousal Improves Cardiovascular and Cognitive Responses to Stress" [@JamiesonNockMendes:2012]&ensp;[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3410434/pdf/nihms324194.pdf)&ensp;[<i class="fa fa-globe" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3410434/)
+    - Michael J. Poulin et al., "Giving to Others and the Association Between Stress and Mortality" [@PoulinBrownDillard:2013]&ensp;[<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3780662/pdf/AJPH.2012.300876.pdf)&ensp;[<i class="fa fa-globe" aria-hidden="true"></i>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3780662/)
+2. **Create** a one-page handout summarizing McGonigal's presentation. Your handout **must include the following**:
+    
+    - Text summarizing the research (you get to write it this time)
+    - 2 annotated figures, either extracted from the PDFs or created on your own in Illustrator
+    - 1 stock photograph, used with correct attribution (see the [Graphic Assets section of the References page](/reference/#graphic-assets) for helpful resources)
+    
+    You should use typesetting software (InDesign, Publisher, or Scribus) to create the handout and vector editing software (Illustrator or Inkscape) to create or edit the figures.
+
+3. **Export** the final handout as a PDF.
+4. **Write** a memo (no word limit) explaining your design process. I'm specifically looking for the following:
+    - Who is the audience for your handout?
+    - How did you apply the principles of CRAP?
+    - How do the design principles you used match audience needs and enhance the story?
+5. **Submit** the following outputs on Learning Suite:
+    - A PDF of your handout
+    - A PDF of the memo describing your design process
+
+You will be graded on how well you use typesetting and vector editing software^[{-} [![Example rubric for project 3](/images/rubrics/project3_rubric.png)](/assignment/rubrics/project3_rubric.pdf)] and how well you apply the principles of CRAP, and how well the design assists with the structure of the story you're telling. I will use [this rubric](/assignment/rubrics/project3_rubric.pdf) to grade the final product.
+
+**The assignment is due by 11:59 PM on Monday, December 4.**

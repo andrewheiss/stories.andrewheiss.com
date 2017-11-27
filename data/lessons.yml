@@ -63,15 +63,13 @@ lessons:
     date: "November 29 (W)"
     reading: "10-reading"
 
-  - title: "**Project 3 due**"
-    date: "December 1 (F)"
-  
-  - title: "⊞ *Story map due*"
-
   - title: "Ethics of storytelling with science"
     date: "December 4 (M)"
     reading: "11-reading"
     assignment: "06-assignment"
+
+  - title: "⊞ **Project 3 due**"
+    assignment: "03-project"
 
   - title: '<span class="newthought">delivery</span>'
   - title: "Delivery I"
