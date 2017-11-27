@@ -85,7 +85,6 @@ assignments <- tribble(
   30     , "Project 1",
   30     , "Project 2",
   30     , "Project 3",
-  20     , "Story map",
   150    , "Final story portfolio",
   50     , "Final presentation"
 )
