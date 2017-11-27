@@ -1,0 +1,37 @@
+---
+title: "Content"
+date: "2017-11-27"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+The slides from today's class will go here.
+
+
+# Videos from class
+
+- ["Understanding the way scientists speak,"](http://www.msnbc.com/morning-joe/watch/understanding-the-way-scientists-speak-27745859874) MSNBC Morning Joe, 2013-04-24
+- ["Improvisation for Scientists: Workshops by Alan Alda and the Center for Communicating Science,"](https://www.youtube.com/watch?v=JtdyA7SibG8) Stony Brook Journalism, 2010-03-23
+- ["Knowing How to Tell a Good Story Is Like Having Mind Control,"](https://www.youtube.com/watch?v=r4k6Gm4tlXw) Alan Alda at Big Think, 2017-07-18
+
+
+# Editing published figures
+
+- ["Giving to Others and the Association Between Stress and Mortality"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3780662/pdf/AJPH.2012.300876.pdf) [@PoulinBrownDillard:2013]
+- ["Principled instrumentalism: a theory of transnational NGO behaviour"](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B2E14706F0B77BF98D7F4ABBF146DC3/S0260210513000387a.pdf/principled_instrumentalism_a_theory_of_transnational_ngo_behaviour.pdf) [@MitchellSchmitz:2014]
+
+
+# Feedback for today
+
+Go to [this form](https://goo.gl/forms/zIz5NpmDGn4wNxU93) and answer these three questions (anonymously if you want):
+
+1. What new thing did you learn today?
+2. What was the most unclear thing about today's class?
+3. What was the most exciting thing you learned today?
