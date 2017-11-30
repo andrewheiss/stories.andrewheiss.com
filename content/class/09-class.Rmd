@@ -23,7 +23,6 @@ output:
 
 - ["Understanding the way scientists speak,"](http://www.msnbc.com/morning-joe/watch/understanding-the-way-scientists-speak-27745859874) MSNBC Morning Joe, 2013-04-24
 - ["Improvisation for Scientists: Workshops by Alan Alda and the Center for Communicating Science,"](https://www.youtube.com/watch?v=JtdyA7SibG8) Stony Brook Journalism, 2010-03-23
-- ["Knowing How to Tell a Good Story Is Like Having Mind Control,"](https://www.youtube.com/watch?v=r4k6Gm4tlXw) Alan Alda at Big Think, 2017-07-18
 
 
 # Editing published figures

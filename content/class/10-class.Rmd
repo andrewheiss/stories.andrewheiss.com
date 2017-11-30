@@ -1,0 +1,42 @@
+---
+title: "Structure"
+date: "2017-11-29"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/BUSM-491R_2017-11-29.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2017-11-29.png)](/slides/BUSM-491R_2017-11-29.pdf)
+</figure>
+
+
+# Video from class
+
+- ["Knowing How to Tell a Good Story Is Like Having Mind Control,"](https://www.youtube.com/watch?v=r4k6Gm4tlXw) Alan Alda at Big Think, 2017-07-18
+
+
+# Mini project: Dickensian social safety net and mental health facilities
+
+Using Ancestry.com's 1861 workhouse inmate data, create a one-page handout that would accompany a hypothetical presentation about mental health facilities in Victorian England. You can see full details of the dataset (as well as the code to generate the figures) at [the page for Class 5](/class/05-class/#long-term-workhouse-inmates-in-england-and-wales-1861).
+
+Download these files to get started:
+
+- [<i class="fa fa-download" aria-hidden="true"></i> *A Christmas Carol*, Stave I](/class/christmas-carol-stave1.docx) ^[[Text from Project Gutenberg](https://www.gutenberg.org/ebooks/46)]
+- [<i class="fa fa-download" aria-hidden="true"></i> Graph of reasons for being in the poor house](/class/reasons-for-poor-house.pdf)
+- [<i class="fa fa-download" aria-hidden="true"></i> Graph of types of mental diseases](/class/mental-diseases.pdf)
+- [<i class="fa fa-download" aria-hidden="true"></i> Workhouse inmates, 1861](/data/workhouse_inmates.xlsx) ^[Data from [Ancestry.com, *England and Wales, Long-Term Workhouse Inmates, 1861*](https://search.ancestry.com/search/db.aspx?dbid=61439), Lehi, UT, USA: Ancestry.com Operations, Inc., 2017. Original data: Long-Term Workhouse Inmates, 1861, Peter Higginbotham, [workhouses.org.uk](http://workhouses.org.uk/).]
+
+
+# Feedback for today
+
+Go to [this form](https://goo.gl/forms/3skNo8r9MVlfQDek1) and answer these three questions (anonymously if you want):
+
+1. What new thing did you learn today?
+2. What was the most unclear thing about today's class?
+3. What was the most exciting thing you learned today?
