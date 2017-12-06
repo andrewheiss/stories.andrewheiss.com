@@ -9,7 +9,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 # Required
 
 - Chapter 9 in Nancy Duarte, *Resonate* [@Duarte:2010]
-- [Erica Robles-Anderson and Patrik Svensson, "'One Damn Slide After Another': PowerPooint at Every Occasion for Speech", *Computational Culture*, January 15, 2016](http://computationalculture.net/2016/01/11/one-damn-slide-after-another-powerpoint-at-every-occasion-for-speech/)
+- [Erica Robles-Anderson and Patrik Svensson, "'One Damn Slide After Another': PowerPoint at Every Occasion for Speech", *Computational Culture*, January 15, 2016](http://computationalculture.net/2016/01/11/one-damn-slide-after-another-powerpoint-at-every-occasion-for-speech/)
 - [Stephanie Evergreen, "Stop Asking if the Slides are Available"](http://stephanieevergreen.com/stop-asking-if-the-slides-are-available/)
 - [Elisabeth Bumiller, "We Have Met the Enemy and He Is PowerPoint"](http://www.nytimes.com/2010/04/27/world/27powerpoint.html?hp)
 - [Erik Hess, "Death by Powerpoint"](http://themindfulbit.com/blog/death-by-powerpoint)
