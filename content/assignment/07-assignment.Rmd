@@ -1,13 +1,13 @@
 ---
 title: "Delivery and summary of class"
-date: "2017-12-11"
-due_date: "2017-12-11"
+date: "2017-12-13"
+due_date: "2017-12-13"
 due_time: "11:59 AM"
 ---
 
 # Task 1: Reflection memo
 
-Write a 500-word memo about the assigned readings ([class 12](/reading/12-reading/); [class 13](/reading/13-reading/)) for this week. You can (should) use some of the prompt questions there if you want:
+Write a **400**-word memo about the assigned readings ([class 12](/reading/12-reading/); [class 13](/reading/13-reading/)) for this week. You can (should) use some of the prompt questions there if you want:
 
 - How do contrast and structure relate to STAR moments?
 - How does Alda discuss making memorable content? How is his view different from Duarte's?
@@ -23,7 +23,7 @@ As you write the memo, also consider these central questions:
 
 # Task 2: Summative assessment
 
-*This memo is different*. Read the one reading for [class 14](/reading/14-reading/) and write ≈**300** words exploring a few of these summative questions:
+*This memo is different*. Read the one reading for [class 14](/reading/14-reading/) and write ≈**400** words exploring a few of these summative questions:
 
 - What is truth?
 - How do we find truth?
@@ -33,4 +33,4 @@ As you write the memo, also consider these central questions:
 - Does beauty matter when describing truth or telling stories?
 - How does any of this philosophical humanities stuff relate to science and data communication?
 
-Submit both tasks as "Reflection 7" on Learning Suite by noon on Monday.
+Submit both tasks as "Reflection 7" on Learning Suite by noon on Wednesday.
