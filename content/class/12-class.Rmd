@@ -1,0 +1,33 @@
+---
+title: "Delivery I: STAR moments and wonder"
+date: "2017-12-06"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/BUSM-491R_2017-12-06.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2017-12-06.png)](/slides/BUSM-491R_2017-12-06.pdf)
+</figure>
+
+
+# Videos from class
+
+- [Steve Jobs, Macworld 2008](https://www.youtube.com/watch?v=NGM4PXbUnBc)
+- [Bill Gates, "Mosquitos, malaria, and education," TED2009](https://www.ted.com/talks/bill_gates_unplugged) (start at 3:50)
+- [Chieko N. Okazaki, "Baskets and Bottles," April 1996](https://www.lds.org/general-conference/1996/04/baskets-and-bottles?lang=eng) (start at 3:40)
+- [Jeffrey R. Holland, "Safety for the Soul," October 2009](https://www.lds.org/general-conference/2009/10/safety-for-the-soul?lang=eng) (start at 5:50)
+
+
+# Feedback for today
+
+Go to [this form](https://goo.gl/forms/N5L36RkYtWWpl78S2) and answer these three questions (anonymously if you want):
+
+1. What new thing did you learn today?
+2. What was the most unclear thing about today's class?
+3. What was the most exciting thing you learned today?

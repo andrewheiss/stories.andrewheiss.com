@@ -78,8 +78,9 @@ lessons:
   - title: "Delivery I"
     date: "December 6 (W)"
     reading: "12-reading"
+    class: "12-class"
 
-  - title: "Delivery II"
+  - title: "Delivery II (**no class though**)"
     date: "December 11 (M)"
     reading: "13-reading"
 
