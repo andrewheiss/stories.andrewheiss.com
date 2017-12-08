@@ -47,6 +47,8 @@ output:
 - **Vectors**
     - [**Noun Project**](https://thenounproject.com/): Thousands of free simple vector images
     - [**Vecteezy**](https://www.vecteezy.com/): Thousands of free vector images
+- **Vectors, photos, videos, and other assets**
+    - [**Stockio**](https://www.stockio.com/)
 
 
 # Accessibility
