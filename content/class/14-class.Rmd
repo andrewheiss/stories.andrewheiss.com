@@ -1,0 +1,33 @@
+---
+title: "Delivery II & Truth, Beauty, and Stories, revisited"
+date: "2017-12-13"
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/BUSM-491R_2017-12-13.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2017-12-13.png)](/slides/BUSM-491R_2017-12-13.pdf)
+</figure>
+
+
+# Feedback for the class
+
+First, make sure you [fill out BYU's official ratings for this class](https://studentratings.byu.edu/) sometime before Friday, December 15.
+
+Second, go to [this form](https://goo.gl/forms/TGfuCmuWAZ2nxsNj2) and answer these questions (anonymously if you want):
+
+1. What were the two most important things you learned in this class?
+2. What were the two most exciting things you learned in this class?
+3. What were the two most difficult things you had to do in this class?
+4. Which class sessions were most helpful? Which were least helpful?
+5. Which readings were most helpful? Which were least helpful?
+6. What should I remove from future versions of this class?
+7. What should I add to future versions of this class?
+8. What else should I change in future versions of this class?
+9. Any other comments?
