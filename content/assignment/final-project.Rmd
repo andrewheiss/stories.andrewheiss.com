@@ -126,14 +126,14 @@ Once you've created all these different story forms, compile them into a single 
 
 # Final deliverables
 
-In the end, I need the following outputs from you:
+^[{-} [![Example rubric for final project](/images/rubrics/final-project_rubric.png)](/assignment/rubrics/final-project_rubric.pdf)] In the end, I need the following outputs from you:
 
 - A single PDF of your complete portfolio, uploaded to Learning Suite by 3:00 PM on Thursday, December 21.
 - A 10-minute in-person presentation, completed between 3:00–6:00 PM on Thursday, December 21. You should plan on attending the whole exam period to watch everyone else's presentations.
 
 **No late work will be accepted for this project since it counts as your final exam.**
 
-Each element of the portfolio will be graded on how well you tell a story that is appropriate to its given audience, and (where applicable), how well you apply the principles of CRAP and data visualization. I will use **this rubric** to grade the final project.^[Rubric forthcoming.]
+Each element of the portfolio will be graded on how well you tell a story that is appropriate to its given audience, and (where applicable), how well you apply the principles of CRAP and data visualization. I will use [this rubric](/assignment/rubrics/final-project_rubric.pdf) to grade the final project.
 
 ^[{-} ![Clapping](https://media.giphy.com/media/l4HodBpDmoMA5p9bG/giphy.gif)] I am happy to give feedback and help along the way—just not at, like, 2 PM on the day it's due. Please don't hesitate to come and get help!
 
