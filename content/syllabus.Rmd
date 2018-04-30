@@ -74,7 +74,7 @@ On the first day of class we came up with rules, expectations, and policies for 
 
 # Assignments and grades
 
-You can find descriptions and instructions of all assignments on the [assignments page](/assignments/).
+You can find descriptions of all the assignments on the [assignments page](/assignments/).
 
 ## Assignments
 

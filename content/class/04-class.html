@@ -7,62 +7,76 @@ output:
     toc: true
 ---
 
+<!-- BLOGDOWN-HEAD -->
 <style type="text/css">
-div.sourceLine, a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-div.sourceLine, a.sourceLine { text-indent: -1em; padding-left: 1em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource div.sourceLine, .numberSource a.sourceLine
+pre.numberSource a.sourceLine
   { position: relative; }
-pre.numberSource div.sourceLine::before, .numberSource a.sourceLine::before
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
   { content: attr(data-line-number);
     position: absolute; left: -5em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em; }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0; background-color: #ffffff; color: #a0a0a0;  padding-left: 4px; }
-pre, code { color: #1f1c1b; background-color: #ffffff; }
+    padding: 0 4px; width: 4em;
+    background-color: #ffffff;
+    color: #a0a0a0;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
+div.sourceCode
+  { color: #1f1c1b; background-color: #ffffff; }
 @media screen {
-a.sourceLine::before { text-decoration: underline; color: initial; }
+a.sourceLine::before { text-decoration: underline; }
 }
-code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span. { color: #1f1c1b; } /* Normal */
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
+code span.an { color: #ca60ca; } /* Annotation */
+code span.at { color: #0057ae; } /* Attribute */
+code span.bn { color: #b08000; } /* BaseN */
+code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #924c9d; } /* Char */
+code span.cn { color: #aa5500; } /* Constant */
+code span.co { color: #898887; } /* Comment */
+code span.cv { color: #0095ff; } /* CommentVar */
+code span.do { color: #607880; } /* Documentation */
 code span.dt { color: #0057ae; } /* DataType */
 code span.dv { color: #b08000; } /* DecVal */
-code span.bn { color: #b08000; } /* BaseN */
-code span.fl { color: #b08000; } /* Float */
-code span.cn { color: #aa5500; } /* Constant */
-code span.ch { color: #924c9d; } /* Char */
-code span.sc { color: #3daee9; } /* SpecialChar */
-code span.st { color: #bf0303; } /* String */
-code span.vs { color: #bf0303; } /* VerbatimString */
-code span.ss { color: #ff5500; } /* SpecialString */
-code span.im { color: #ff5500; } /* Import */
-code span.co { color: #898887; } /* Comment */
-code span.do { color: #607880; } /* Documentation */
-code span.an { color: #ca60ca; } /* Annotation */
-code span.cv { color: #0095ff; } /* CommentVar */
-code span.ot { color: #006e28; } /* Other */
-code span.fu { color: #644a9b; } /* Function */
-code span.va { color: #0057ae; } /* Variable */
-code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
-code span.op { color: #1f1c1b; } /* Operator */
-code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
-code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
-code span.pp { color: #006e28; } /* Preprocessor */
-code span.at { color: #0057ae; } /* Attribute */
-code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
-code span.in { color: #b08000; } /* Information */
-code span.wa { color: #bf0303; } /* Warning */
-code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
 code span.er { color: #bf0303; text-decoration: underline; } /* Error */
-code span. { color: #1f1c1b; } /* Normal */
+code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code span.fl { color: #b08000; } /* Float */
+code span.fu { color: #644a9b; } /* Function */
+code span.im { color: #ff5500; } /* Import */
+code span.in { color: #b08000; } /* Information */
+code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span.op { color: #1f1c1b; } /* Operator */
+code span.ot { color: #006e28; } /* Other */
+code span.pp { color: #006e28; } /* Preprocessor */
+code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.ss { color: #ff5500; } /* SpecialString */
+code span.st { color: #bf0303; } /* String */
+code span.va { color: #0057ae; } /* Variable */
+code span.vs { color: #bf0303; } /* VerbatimString */
+code span.wa { color: #bf0303; } /* Warning */
 </style>
+<!-- /BLOGDOWN-HEAD -->
 
 <h2>Contents</h2>
 <div id="TOC">
@@ -86,31 +100,31 @@ code span. { color: #1f1c1b; } /* Normal */
 <br />
 </span></span></p>
 <p><strong>Plot with transparent background</strong>:</p>
-<pre class="sourceCode r" id="cb1"><code class="sourceCode r"><div class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</div>
-<div class="sourceLine" id="cb1-2" data-line-number="2"></div>
-<div class="sourceLine" id="cb1-3" data-line-number="3">hotdogs &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/hot-dog-contest-winners.csv&quot;</span>) <span class="op">%&gt;%</span></div>
-<div class="sourceLine" id="cb1-4" data-line-number="4"><span class="st">  </span><span class="kw">rename</span>(<span class="dt">dogs =</span> <span class="st">`</span><span class="dt">Dogs eaten</span><span class="st">`</span>, <span class="dt">record =</span> <span class="st">`</span><span class="dt">New record</span><span class="st">`</span>) <span class="op">%&gt;%</span></div>
-<div class="sourceLine" id="cb1-5" data-line-number="5"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">record =</span> <span class="kw">factor</span>(record))</div>
-<div class="sourceLine" id="cb1-6" data-line-number="6"></div>
-<div class="sourceLine" id="cb1-7" data-line-number="7">plot_hotdogs &lt;-<span class="st"> </span><span class="kw">ggplot</span>(hotdogs, <span class="kw">aes</span>(<span class="dt">x =</span> Year, <span class="dt">y =</span> dogs, <span class="dt">fill =</span> record)) <span class="op">+</span><span class="st"> </span></div>
-<div class="sourceLine" id="cb1-8" data-line-number="8"><span class="st">  </span><span class="kw">geom_col</span>() <span class="op">+</span><span class="st"> </span></div>
-<div class="sourceLine" id="cb1-9" data-line-number="9"><span class="st">  </span><span class="kw">scale_fill_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;grey80&quot;</span>, <span class="st">&quot;#FC7300&quot;</span>)) <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-10" data-line-number="10"><span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">1980</span>, <span class="dv">2010</span>, <span class="dv">2</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-11" data-line-number="11"><span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">70</span>, <span class="dv">10</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-12" data-line-number="12"><span class="st">  </span><span class="kw">guides</span>(<span class="dt">fill =</span> <span class="ot">FALSE</span>) <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-13" data-line-number="13"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;Hot dogs and buns&quot;</span>, <span class="dt">x =</span> <span class="ot">NULL</span>) <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-14" data-line-number="14"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></div>
-<div class="sourceLine" id="cb1-15" data-line-number="15"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),</div>
-<div class="sourceLine" id="cb1-16" data-line-number="16">        <span class="dt">plot.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),</div>
-<div class="sourceLine" id="cb1-17" data-line-number="17">        <span class="dt">axis.ticks.x =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.25</span>),</div>
-<div class="sourceLine" id="cb1-18" data-line-number="18">        <span class="dt">panel.grid.major.x =</span> <span class="kw">element_blank</span>(),</div>
-<div class="sourceLine" id="cb1-19" data-line-number="19">        <span class="dt">panel.grid.major.y =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.5</span>, <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>),</div>
-<div class="sourceLine" id="cb1-20" data-line-number="20">        <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>())</div>
-<div class="sourceLine" id="cb1-21" data-line-number="21"></div>
-<div class="sourceLine" id="cb1-22" data-line-number="22">plot_hotdogs</div></code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">hotdogs &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/hot-dog-contest-winners.csv&quot;</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="st">  </span><span class="kw">rename</span>(<span class="dt">dogs =</span> <span class="st">`</span><span class="dt">Dogs eaten</span><span class="st">`</span>, <span class="dt">record =</span> <span class="st">`</span><span class="dt">New record</span><span class="st">`</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">record =</span> <span class="kw">factor</span>(record))</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">plot_hotdogs &lt;-<span class="st"> </span><span class="kw">ggplot</span>(hotdogs, <span class="kw">aes</span>(<span class="dt">x =</span> Year, <span class="dt">y =</span> dogs, <span class="dt">fill =</span> record)) <span class="op">+</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="st">  </span><span class="kw">geom_col</span>() <span class="op">+</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="st">  </span><span class="kw">scale_fill_manual</span>(<span class="dt">values =</span> <span class="kw">c</span>(<span class="st">&quot;grey80&quot;</span>, <span class="st">&quot;#FC7300&quot;</span>)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">1980</span>, <span class="dv">2010</span>, <span class="dv">2</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">0</span>, <span class="dv">70</span>, <span class="dv">10</span>), <span class="dt">expand =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">0</span>)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="st">  </span><span class="kw">guides</span>(<span class="dt">fill =</span> <span class="ot">FALSE</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;Hot dogs and buns&quot;</span>, <span class="dt">x =</span> <span class="ot">NULL</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="st">  </span><span class="kw">theme_minimal</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="st">  </span><span class="kw">theme</span>(<span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),</a>
+<a class="sourceLine" id="cb1-16" data-line-number="16">        <span class="dt">plot.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;transparent&quot;</span>, <span class="dt">colour =</span> <span class="ot">NA</span>),</a>
+<a class="sourceLine" id="cb1-17" data-line-number="17">        <span class="dt">axis.ticks.x =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.25</span>),</a>
+<a class="sourceLine" id="cb1-18" data-line-number="18">        <span class="dt">panel.grid.major.x =</span> <span class="kw">element_blank</span>(),</a>
+<a class="sourceLine" id="cb1-19" data-line-number="19">        <span class="dt">panel.grid.major.y =</span> <span class="kw">element_line</span>(<span class="dt">size =</span> <span class="fl">0.5</span>, <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>),</a>
+<a class="sourceLine" id="cb1-20" data-line-number="20">        <span class="dt">panel.grid.minor =</span> <span class="kw">element_blank</span>())</a>
+<a class="sourceLine" id="cb1-21" data-line-number="21"></a>
+<a class="sourceLine" id="cb1-22" data-line-number="22">plot_hotdogs</a></code></pre></div>
 <p><img src="/class/04-class_files/figure-html/build-hotdogs-1.png" width="672" /></p>
-<pre class="sourceCode r" id="cb2"><code class="sourceCode r"><div class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">ggsave</span>(plot_hotdogs, <span class="dt">filename =</span> <span class="st">&quot;output/hotdogs.pdf&quot;</span>,</div>
-<div class="sourceLine" id="cb2-2" data-line-number="2">       <span class="dt">width =</span> <span class="dv">7</span>, <span class="dt">height =</span> <span class="dv">4</span>, <span class="dt">units =</span> <span class="st">&quot;in&quot;</span>, <span class="dt">bg =</span> <span class="st">&quot;transparent&quot;</span>)</div></code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">ggsave</span>(plot_hotdogs, <span class="dt">filename =</span> <span class="st">&quot;output/hotdogs.pdf&quot;</span>,</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">       <span class="dt">width =</span> <span class="dv">7</span>, <span class="dt">height =</span> <span class="dv">4</span>, <span class="dt">units =</span> <span class="st">&quot;in&quot;</span>, <span class="dt">bg =</span> <span class="st">&quot;transparent&quot;</span>)</a></code></pre></div>
 <p><strong>Text for annotations</strong>:</p>
 <ul>
 <li>Winners from Nathan’s Hot Dog Eating Contest</li>
@@ -122,13 +136,14 @@ code span. { color: #1f1c1b; } /* Normal */
 </ul>
 <p><strong>Enhanced plot</strong>:</p>
 <figure class="fullwidth">
-<figure>
-<img src="/images/class/hot-dogs.gif" alt="Enhanced hot dog eating contest graph" /><figcaption>Enhanced hot dog eating contest graph</figcaption>
-</figure>
+<div class="figure">
+<img src="/images/class/hot-dogs.gif" alt="Enhanced hot dog eating contest graph" />
+<p class="caption">Enhanced hot dog eating contest graph</p>
+</div>
 </figure>
 <h2 id="feedback-for-today">Feedback for today</h2>
 <p>Go to <a href="https://goo.gl/forms/dhjNwwkQIyn9qbIl2">this form</a> and answer these three questions (anonymously if you want):</p>
-<ol type="1">
+<ol style="list-style-type: decimal">
 <li>What new thing did you learn today?</li>
 <li>What was the most unclear thing about today’s class?</li>
 <li>What was the most exciting thing you learned today?</li>
